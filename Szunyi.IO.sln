@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Szunyi.IO", "Szunyi.IO\Szunyi.IO.vbproj", "{053ECC71-E49D-4254-9A5A-7D36B3F50D37}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{E00E15CF-1822-4364-BEF1-7C99D094D97A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Szunyi.Common", "..\Szunyi.Common\Szunyi.Common\Szunyi.Common.vbproj", "{D2D39939-3EAC-4599-BF5B-41228D7E3BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{053ECC71-E49D-4254-9A5A-7D36B3F50D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{053ECC71-E49D-4254-9A5A-7D36B3F50D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{053ECC71-E49D-4254-9A5A-7D36B3F50D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D39939-3EAC-4599-BF5B-41228D7E3BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D39939-3EAC-4599-BF5B-41228D7E3BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D39939-3EAC-4599-BF5B-41228D7E3BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D39939-3EAC-4599-BF5B-41228D7E3BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

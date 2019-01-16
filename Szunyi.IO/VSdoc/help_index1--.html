@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"Add_File Method","All_TAB_Like Field","Append_Before_Extension (FileInfo, FileInfo) Method","Append_Before_Extension (FileInfo, IEnumerable&lt;FileInfo&gt;) Method","Append_Before_Extension (FileInfo, String) Method","Append_Before_Extension (IEnumerable&lt;FileInfo&gt;, String) Method","Append_Before_Extension_wNew_Extension (FileInfo, String) Method","Append_Before_Extension_wNew_Extension (FileInfo, String, String) Method","Append_First (FileInfo, String) Method","Append_First (IEnumerable&lt;FileInfo&gt;, String) Method","BAM Field","BAM Method","BED Field","BED Method","BlastAll Field","Blast_XML Field","Blast_tabular Field","Blast_tabular_wComment Field","Call Method","Call2 Method","CallAs Method","CallAs2 Method","ChangeExtension (FileInfo, String) Method","ChangeExtension (IEnumerable&lt;FileInfo&gt;, String) Method","Change_Directory Method","CheckBox Class","CheckBoxForStringsFull  Constructor {Szunyi.IO.CheckBoxForStringsFull}","CheckBoxForStringsFull (List&lt;FileInfo&gt;, Int32, String, List&lt;FileInfo&gt;) Constructor","CheckBoxForStringsFull (List&lt;ISequence&gt;, Int32, String, List&lt;String&gt;) Constructor","CheckBoxForStringsFull (List&lt;String&gt;, Int32, String, List&lt;String&gt;) Constructor","CheckBoxForStringsFull (List&lt;String&gt;, Int32, String, String) Constructor","CheckBoxForStringsFull (SortedList&lt;StringInt16&gt;, Int32, String) Constructor","CheckBoxForStringsFull Class","Checked Property","Convert_CSV_To_TDT (FileInfo) Method","Convert_CSV_To_TDT (IEnumerable&lt;FileInfo&gt;) Method","Convert_TDT_to_CSV (FileInfo) Method","Convert_TDT_to_CSV (IEnumerable&lt;FileInfo&gt;) Method","Csv Method","D_Click Event","Default_Max_Value Property","Default_Min_Value Property","Default_Value Property","Delete Method","Description Property","Deserialize(Of T) (FileInfo) Method","Deserialize(Of T) (String) Method","Directories Method","Directory Method","DisplayMember Property","Dispose  Method {Szunyi.IO.Exporters.Fasta_Exporter}","Dispose  Method {Szunyi.IO.Exporters.Text_Exporter}","Dispose  Method {Szunyi.IO.FolderSelectDialog}","Dispose (Boolean) Method {Szunyi.IO.Exporters.Fasta_Exporter}","Dispose (Boolean) Method {Szunyi.IO.Exporters.Text_Exporter}","Dispose (Boolean) Method {Szunyi.IO.FolderSelectDialog}","Dispose Method {Szunyi.IO.CheckBoxForStringsFull}","Dispose Method {Szunyi.IO.Controls.CheckBox}","Dispose Method {Szunyi.IO.Controls.Get_Double}","Dispose Method {Szunyi.IO.Controls.Get_Integer}","Dispose Method {Szunyi.IO.Controls.OK_Cancel}","Dispose Method {Szunyi.IO.Controls.Set_Console_Properties}","Dispose Method {Szunyi.IO.Controls.cb}","Dispose Method {Szunyi.IO.Filter}","Dispose Method {Szunyi.IO.tblb}","EnumName Property","EnumValue Property","Export_BED (IList&lt;ISequenceRange&gt;, FileInfo) Method","Export_BED (IList&lt;SequenceRange&gt;) Method","Export_FASTA (IEnumerable&lt;ISequence&gt;) Method","Export_FASTA (IEnumerable&lt;ISequence&gt;, FileInfo) Method","Export_FASTA (ISequence) Method","Export_FASTA (ISequence, FileInfo) Method","Export_FASTQ (IEnumerable&lt;ISequence&gt;) Method","Export_FASTQ (IEnumerable&lt;ISequence&gt;, FileInfo) Method","Export_FASTQ (QualitativeSequence) Method","Export_FASTQ (QualitativeSequence, FileInfo) Method","Export_GFF3 (IEnumerable&lt;ISequence&gt;) Method","Export_GFF3 (IEnumerable&lt;ISequence&gt;, FileInfo) Method","Export_GFF3 (ISequence) Method","Export_GFF3 (ISequence, FileInfo) Method","Export_GenBank (IEnumerable&lt;ISequence&gt;) Method","Export_GenBank (IEnumerable&lt;ISequence&gt;, FileInfo) Method","Export_GenBank (ISequence) Method","Export_GenBank (ISequence, FileInfo) Method","Export_Module Class","Export_Sam Method","Export_Text (String, FileInfo) Method","Export_Text (String, String, String) Method","Export_Text (StringBuilder, FileInfo) Method","Export_Text (StringBuilder, String, String) Method","Exporters Class","Extensions Class","Fast5 Field","Fast5 Method","FastQ Field","Fasta Field","Fasta Method","Fasta_Exporter Class","Fasta_Exporter Constructor {Szunyi.IO.Exporters.Fasta_Exporter}","Fasta_FastQ Field","Fasta_Fastq Method","Fastq Method","File Method","File_Extension Class","File_Extensions Class","File_Flag Property","File_System_Module Class","File_To_Save (String, DirectoryInfo, String) Method","File_To_Save (String, String) Method","Files Method","Filter (List&lt;String&gt;) Constructor {Szunyi.IO.Filter}","Filter (Type, DirectoryInfo) Constructor {Szunyi.IO.Filter}","Filter Class","Filter Field {Szunyi.IO.File_Extensions}","Filter Field {Szunyi.IO.File_Extension}","Filter_ByExtension (IEnumerable&lt;FileInfo&gt;, IEnumerable&lt;String&gt;) Method","Filter_ByExtension (IEnumerable&lt;FileInfo&gt;, String) Method","Filter_ByPartialID (IEnumerable&lt;FileInfo&gt;, IEnumerable&lt;String&gt;) Method","Filter_ByPartialID (IEnumerable&lt;FileInfo&gt;, String) Method","Filter_Setting Class","Filter_Setting Constructor {Szunyi.IO.Filter_Setting}","Flag Property","FolderName Property","FolderNames Property","FolderSelectDialog Class","FolderSelectDialog Constructor {Szunyi.IO.FolderSelectDialog}","ForCheckBox (String) Constructor {Szunyi.IO.ForCheckBox}","ForCheckBox (String, Object) Constructor {Szunyi.IO.ForCheckBox}","ForCheckBox Class","FullName_Linux (DirectoryInfo) Method","FullName_Linux (FileInfo) Method","FullName_Linux (IEnumerable&lt;FileInfo&gt;) Method","FullName_Python (FileInfo) Method","FullName_Python (IEnumerable&lt;FileInfo&gt;) Method","FullName_Windows_cmd (FileInfo) Method","FullName_Windows_cmd (IEnumerable&lt;FileInfo&gt;) Method","GenBank Field {Szunyi.IO.File_Extensions}","GenBank Field {Szunyi.IO.File_Extension}","GenBank Method","Get Method","GetAs Method","GetEnum Method","GetFiles_All_Recursive (DirectoryInfo) Method","GetFiles_All_Recursive (IEnumerable&lt;DirectoryInfo&gt;) Method","GetHeader Method","Get_All_Enum_Names(Of t) Method","Get_All_Enum_Names_Values(Of t) Method","Get_Console_Command Method","Get_Double  Constructor {Szunyi.IO.Controls.Get_Double}","Get_Double (Input_Description) Constructor {Szunyi.IO.Controls.Get_Double}","Get_Double (String, Double, Double, Double) Constructor {Szunyi.IO.Controls.Get_Double}","Get_Double Class","Get_Enum_Name(Of T) Method","Get_Enum_Value(Of T) (List&lt;String&gt;) Method","Get_Enum_Value(Of T) (String) Method","Get_Integer  Constructor {Szunyi.IO.Controls.Get_Integer}","Get_Integer (Input_Description) Constructor {Szunyi.IO.Controls.Get_Integer}","Get_Integer (String) Method","Get_Integer (String, Int32) Method","Get_Integer (String, Int32, Double, Double) Constructor {Szunyi.IO.Controls.Get_Integer}","Get_Integer (String, Int32, Int32) Method","Get_Integer (String, Int32, Int32, Int32) Method","Get_Integer Class","Get_Property_Value Method","Gff Method","GroupBy_Extension Method","GroupBy_FileName Method","Gzip Field","HDF5 Field","Handle Property","I_P Property","Import Class","IndexChanged Event","InitialDirectory Property","Input_Description (Input_Description_Type) Constructor {Szunyi.IO.Outer_Programs.Input_Description}","Input_Description (String, Input_Description_Type, String, Double, Double, Double, Double, Double, List&lt;String&gt;, String) Constructor {Szunyi.IO.Outer_Programs.Input_Description}","Input_Description (String, Input_Description_Type, String, Double, Double, Double, Double, Double, String, String) Constructor {Szunyi.IO.Outer_Programs.Input_Description}","Input_Description Class","Input_Description_Type Enumeration","Input_Descriptions Property","KAnalyse Field {Szunyi.IO.File_Extensions}","KAnalyse Field {Szunyi.IO.File_Extension}","Loc_SAM_BAM Field","Location Field","Log Field","Log Method","MaxValue Property","Max_Nof_SelectedItems Property","Merge (IEnumerable&lt;FileInfo&gt;) Method","Merge (IEnumerable&lt;FileInfo&gt;, FileInfo) Method","MinValue Property","Move (FileInfo, FileInfo, List&lt;String&gt;) Method","Move (List&lt;FileInfo&gt;, DirectoryInfo, List&lt;String&gt;) Method","Move (List&lt;FileInfo&gt;, List&lt;FileInfo&gt;) Method","MyGetType Method","MyT Property","Name Property {Szunyi.IO.Filter_Setting}","Name Property {Szunyi.IO.ForCheckBox}","New (String, Object()) Method {Szunyi.IO.Reflector}","OK_Cancel Class","OK_Cancel Constructor {Szunyi.IO.Controls.OK_Cancel}","Original Property","Parameters Class","ParseToArray Method","Parse_Distinct_SequenceIDs Method","Parse_Distinct_Short_SequenceIDs Method","Parse_First_LineS_StartWith Method","Parse_First_Line_StartWith Method","Parse_Lines Method","Parse_Lines_By_Group_NotStartWith Method","Parse_Lines_by_Group (FileInfo, Int32) Method","Parse_Lines_by_Group (FileInfo, String) Method","Parse_Sequence  Method","Parse_Sequence (FileInfo) Method","Parse_Sequence (IEnumerable&lt;FileInfo&gt;) Method","Parse_SequenceIDs Method","Parse_Short_SequenceIDs Method","PhylogeneticXml Field","Pick_Up Class","PoreCHop Field","Read_All Method","Reflector (String) Constructor {Szunyi.IO.Reflector}","Reflector (String, String) Constructor {Szunyi.IO.Reflector}","Reflector Class","SAM Field","SAM Method","SAM_BAM Field","SAM_BAM Method","SAM_BAM_Fastq Field","SelItem Property","SelSeqs Property","SelectFolder Field","Selected Property","SelectedFiles Property","SelectedIndexes Property","SelectedObj Property","SelectedStrings Property","SelectedValue Property","Selected_Value Property","Sequence Method","SequenceFileTypesToImport Field","Serialize(Of T) (T) Method","Serialize(Of T) (T, FileInfo) Method","SetDisplayMember Method","SetIt Method","Set_Console_Properties Class","Set_Console_Properties Constructor {Szunyi.IO.Controls.Set_Console_Properties}","Set_Filter_Settings(Of t) Method","Setting Property","Settings Field","Settings_For_Console Class","ShowDialog  Method","ShowDialog (Form) Method","ShowDialog (IntPtr) Method","SignalP Field","String Method","Szunyi.IO Namespace","Szunyi.IO Reference","Szunyi.IO.Controls Namespace","Szunyi.IO.Outer_Programs Namespace","TabLike Method","TabLikes Method","Text_Exporter Class","Text_Exporter Constructor {Szunyi.IO.Exporters.Text_Exporter}","Title Property","Type Property","Util_Helpers Class","VCF Method","Value Property","Values Property","VanKrevelen Field {Szunyi.IO.File_Extensions}","VanKrevelen Field {Szunyi.IO.File_Extension}","WindowWrapper Class","WindowWrapper Constructor {Szunyi.IO.WindowWrapper}","Write (IEnumerable&lt;ISequence&gt;) Method {Szunyi.IO.Exporters.Fasta_Exporter}","Write (IEnumerable&lt;String&gt;, Boolean) Method","Write (ISequence) Method {Szunyi.IO.Exporters.Fasta_Exporter}","Write (String, Boolean) Method {Szunyi.IO.Exporters.Text_Exporter}","XML Class","XML Method","XMLs Method","Xml Field {Szunyi.IO.File_Extensions}","Xml Field {Szunyi.IO.File_Extension}","b0 Field","b1 Field","b10 Field","b11 Field","b12 Field","b13 Field","b14 Field","b15 Field","b16 Field","b17 Field","b18 Field","b2 Field","b3 Field","b4 Field","b5 Field","b6 Field","b7 Field","b8 Field","b9 Field","cb  Constructor {Szunyi.IO.Controls.cb}","cb (Input_Description) Constructor {Szunyi.IO.Controls.cb}","cb Class","csv Field","fasta Field","gff3 Field","i_P Property {Szunyi.IO.Controls.Get_Double}","i_P Property {Szunyi.IO.Controls.Get_Integer}","mzXML Field","obj Property {Szunyi.IO.Controls.Set_Console_Properties}","obj Property {Szunyi.IO.ForCheckBox}","rep Field","tblb  Constructor {Szunyi.IO.tblb}","tblb (List&lt;Object&gt;, String) Constructor {Szunyi.IO.tblb}","tblb Class","vcf Field","woExtension (FileInfo) Method","woExtension (IEnumerable&lt;FileInfo&gt;) Method"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+

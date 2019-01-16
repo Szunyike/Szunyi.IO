@@ -2,10 +2,12 @@
 Imports System.Windows.Forms
 
 
-
+''' <summary>
+''' This Class is Use for Select File(s), Directory(ies)
+''' </summary>
 Public Class Pick_Up
     ''' <summary>
-    ''' Return a list of FileInfos Or empty liast
+    ''' Return an Enumerable of FileInfo
     ''' </summary>
     ''' <param name="Title"></param>
     ''' <param name="Filter"></param>
@@ -26,14 +28,13 @@ Public Class Pick_Up
             For Each FileName In ofd1.FileNames
                 Yield New FileInfo(FileName)
             Next
-
         End If
 
     End Function
 
 
     ''' <summary>
-    ''' Return Fileinfo, else return nothing
+    ''' Return File, else return nothing
     ''' </summary>
     ''' <param name="Title"></param>
     ''' <param name="Filter"></param>
@@ -53,18 +54,28 @@ Public Class Pick_Up
         Return Nothing
     End Function
 
-
+    ''' <summary>
+    ''' Return DirectoryInfo or Nothing
+    ''' </summary>
+    ''' <param name="Title"></param>
+    ''' <param name="Dir"></param>
+    ''' <returns></returns>
     Public Shared Function Directory(Optional Title As String = "Select Directory", Optional Dir As DirectoryInfo = Nothing) As DirectoryInfo
         Dim x1 As New FolderSelectDialog With {.Title = Title}
 
         If IsNothing(Dir) = False Then x1.InitialDirectory = Dir.FullName
-        If x1.ShowDialog <> DialogResult.OK Then
+        If x1.ShowDialog = DialogResult.OK Then
             Return New DirectoryInfo(x1.FolderNames.First)
         Else
             Return Nothing
         End If
     End Function
-
+    ''' <summary>
+    ''' Return Enumerable of Directory
+    ''' </summary>
+    ''' <param name="Title"></param>
+    ''' <param name="Dir"></param>
+    ''' <returns></returns>
     Public Shared Iterator Function Directories(Optional Title As String = "Select Directory", Optional Dir As DirectoryInfo = Nothing) As IEnumerable(Of DirectoryInfo)
         Dim x1 As New FolderSelectDialog With {.Title = Title}
 
@@ -72,7 +83,6 @@ Public Class Pick_Up
         If x1.ShowDialog <> DialogResult.OK Then
             For Each FolderName In x1.FolderNames
                 Yield New DirectoryInfo(FolderName)
-
             Next
         End If
     End Function
@@ -80,7 +90,7 @@ Public Class Pick_Up
 
 #Region "Sequence"
     ''' <summary>
-    ''' Select Yield Fasta Files
+    ''' Select Yield FASTA Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function Fasta() As IEnumerable(Of FileInfo)
@@ -89,7 +99,7 @@ Public Class Pick_Up
         Next
     End Function
     ''' <summary>
-    ''' Select Yield Fasta Files
+    ''' Select Yield FASTA Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function Fasta_Fastq() As IEnumerable(Of FileInfo)
@@ -99,7 +109,7 @@ Public Class Pick_Up
     End Function
 
     ''' <summary>
-    ''' Select Yield Fastq Files
+    ''' Select Yield FASTQ Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function Fastq() As IEnumerable(Of FileInfo)
@@ -140,7 +150,7 @@ Public Class Pick_Up
 
 
     ''' <summary>
-    ''' Select Yield gff Files
+    ''' Select Yield GFF3 Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function Gff() As IEnumerable(Of FileInfo)
@@ -149,10 +159,9 @@ Public Class Pick_Up
         Next
     End Function
 #End Region
-
 #Region "Text"
     ''' <summary>
-    ''' Select Yield gff Files
+    ''' Select Yield CSV Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function Csv() As IEnumerable(Of FileInfo)
@@ -173,22 +182,35 @@ Public Class Pick_Up
     ''' Select Yield Tab-like Files
     ''' </summary>
     ''' <returns></returns>
-    Public Shared Iterator Function TabLike() As IEnumerable(Of FileInfo)
+    Public Shared Iterator Function TabLikes() As IEnumerable(Of FileInfo)
         For Each F In Files(File_Extensions.All_TAB_Like)
             Yield F
         Next
     End Function
-
+    ''' <summary>
+    ''' Select Yield Tab-like Files
+    ''' </summary>
+    ''' <returns></returns>
+    Public Shared Function TabLike() As FileInfo
+        Return File(File_Extensions.All_TAB_Like)
+    End Function
     ''' <summary>
     ''' Select Yield XML Files
     ''' </summary>
     ''' <returns></returns>
-    Public Shared Iterator Function XML() As IEnumerable(Of FileInfo)
+    Public Shared Iterator Function XMLs() As IEnumerable(Of FileInfo)
         For Each F In Files(File_Extensions.Xml)
             Yield F
         Next
     End Function
+    ''' <summary>
+    ''' Select XmlFile
+    ''' </summary>
+    ''' <returns></returns>
+    Public Shared Function XML(Optional Dir As DirectoryInfo = Nothing) As FileInfo
+        Return File(File_Extensions.Xml, "Select Xml File", Dir)
 
+    End Function
 #End Region
 #Region "Mapping"
     ''' <summary>
@@ -223,7 +245,7 @@ Public Class Pick_Up
 #End Region
 #Region "Annotation"
     ''' <summary>
-    ''' Select Yield bed Files
+    ''' Select Yield BED Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function BED() As IEnumerable(Of FileInfo)
@@ -233,13 +255,22 @@ Public Class Pick_Up
     End Function
 
     ''' <summary>
-    ''' Select Yield vcf Files
+    ''' Select Yield VCF Files
     ''' </summary>
     ''' <returns></returns>
     Public Shared Iterator Function VCF() As IEnumerable(Of FileInfo)
         For Each F In Files(File_Extensions.vcf)
             Yield F
         Next
+    End Function
+
+
+    Public Shared Function [String](Header As List(Of String), Title As String, Optional Default_Value As String = "]]") As String
+        Dim z As New Szunyi.IO.CheckBoxForStringsFull(Header, 1, Title, Default_Value)
+        If z.ShowDialog = DialogResult.OK Then
+            Return z.SelectedStrings.First
+        End If
+        Return String.Empty
     End Function
 #End Region
 

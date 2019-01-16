@@ -1,0 +1,5569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+a:focus {background-color: #CCCCCC;}
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="topic_00000000000001FC.html" target="vbdocright">SOLUTION-WIDE PROPERTIES Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="topic_00000000000001FE.html" target="vbdocright">Szunyi.Common Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="topic_000000000000014F.html" target="vbdocright">Common_Classes Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+
+						    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="topic_0000000000000150.html" target="vbdocright">KeyObject Class</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000153.html" target="vbdocright">KeyObject Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="5" class="header closed" onclick="toggle('c5',this)">
+    <a href="topic_0000000000000150_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c5" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000151.html" target="vbdocright">Key Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000152.html" target="vbdocright">Obj Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="6" class="header closed" onclick="toggle('c6',this)">
+    <a href="topic_0000000000000150_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c6" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="7" class="header closed" onclick="toggle('c7',this)">
+    <a href="topic_0000000000000159.html" target="vbdocright">PartialID Class</a>
+    </div>
+    <div id="c7" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000015C.html" target="vbdocright">PartialID Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="8" class="header closed" onclick="toggle('c8',this)">
+    <a href="topic_0000000000000159_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c8" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000015B.html" target="vbdocright">ID Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000015A.html" target="vbdocright">partialID Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="9" class="header closed" onclick="toggle('c9',this)">
+    <a href="topic_0000000000000159_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c9" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="10" class="header closed" onclick="toggle('c10',this)">
+    <a href="topic_0000000000000154.html" target="vbdocright">partialIDs Class</a>
+    </div>
+    <div id="c10" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="11" class="header closed" onclick="toggle('c11',this)">
+    <a href="topic_0000000000000156_overloads--.html" target="vbdocright">partialIDs Constructor</a>
+    </div>
+    <div id="c11" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000157.html" target="vbdocright">partialIDs(IEnumerable&lt;String&gt;, int, int) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000156.html" target="vbdocright">partialIDs(Dictionary&lt;StringString&gt;) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="12" class="header closed" onclick="toggle('c12',this)">
+    <a href="topic_0000000000000154_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c12" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000155.html" target="vbdocright">partialIDs Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="13" class="header closed" onclick="toggle('c13',this)">
+    <a href="topic_0000000000000154_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c13" class="item" style="display:none">
+		
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000158.html" target="vbdocright">GetID Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="14" class="header closed" onclick="toggle('c14',this)">
+    <a href="topic_000000000000014F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c14" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="15" class="header closed" onclick="toggle('c15',this)">
+    <a href="topic_000000000000015D.html" target="vbdocright">Enums Class</a>
+    </div>
+    <div id="c15" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000171.html" target="vbdocright">Filter Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_0000000000000164.html" target="vbdocright">Locations_By Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_000000000000015E.html" target="vbdocright">SearchType Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="topic_000000000000016A.html" target="vbdocright">TextMatch Enumeration</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		    <div id="16" class="header closed" onclick="toggle('c16',this)">
+    <a href="topic_000000000000015D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c16" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="17" class="header closed" onclick="toggle('c17',this)">
+    <a href="topic_00000000000001BD.html" target="vbdocright">Filter Class</a>
+    </div>
+    <div id="c17" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="18" class="header closed" onclick="toggle('c18',this)">
+    <a href="topic_00000000000001BD_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c18" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001BF.html" target="vbdocright">Parse Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BE.html" target="vbdocright">Pass Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="19" class="header closed" onclick="toggle('c19',this)">
+    <a href="topic_00000000000001C2.html" target="vbdocright">MyInputBox Class</a>
+    </div>
+    <div id="c19" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="20" class="header closed" onclick="toggle('c20',this)">
+    <a href="topic_00000000000001C2_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c20" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001C3.html" target="vbdocright">GetDouble Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C5.html" target="vbdocright">GetDoubles Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001C6.html" target="vbdocright">GetInteger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C7.html" target="vbdocright">GetIntegers Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001C4.html" target="vbdocright">GetString Method</a></div>
+  
+
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="21" class="header closed" onclick="toggle('c21',this)">
+    <a href="topic_00000000000001F4.html" target="vbdocright">SelectLambdaBuilder&lt;T&gt; Class</a>
+    </div>
+    <div id="c21" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="22" class="header closed" onclick="toggle('c22',this)">
+    <a href="topic_00000000000001F4_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c22" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001F5.html" target="vbdocright">CreateNewStatement Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="23" class="header closed" onclick="toggle('c23',this)">
+    <a href="topic_00000000000001EA.html" target="vbdocright">Util_Helpers Class</a>
+    </div>
+    <div id="c23" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="24" class="header closed" onclick="toggle('c24',this)">
+    <a href="topic_00000000000001EA_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c24" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001EC.html" target="vbdocright">Get_All_Enum_Names(Of t) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001EB.html" target="vbdocright">Get_All_Enum_Names_Values(Of t) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001ED.html" target="vbdocright">Get_Enum_Name(Of T) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001F2.html" target="vbdocright">Get_Enum_Value Method</a></div>
+  
+
+						      <div id="25" class="header closed" onclick="toggle('c25',this)">
+    <a href="topic_00000000000001EE_overloads--.html" target="vbdocright">Get_Enum_Value(Of T) Method</a>
+    </div>
+    <div id="c25" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001EF.html" target="vbdocright">Get_Enum_Value&lt;T&gt;(List&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001EE.html" target="vbdocright">Get_Enum_Value&lt;T&gt;(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001F1.html" target="vbdocright">Get_Enum_Valueit(Of T) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001F0.html" target="vbdocright">Get_Enums(Of T) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001F3.html" target="vbdocright">Get_Property_Value Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+						    <div id="26" class="header closed" onclick="toggle('c26',this)">
+    <a href="topic_000000000000017D.html" target="vbdocright">Double_Extensions Class</a>
+    </div>
+    <div id="c26" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="27" class="header closed" onclick="toggle('c27',this)">
+    <a href="topic_000000000000017D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c27" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000017F.html" target="vbdocright">GetDouble Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000017E.html" target="vbdocright">ToString_Decimal Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="28" class="header closed" onclick="toggle('c28',this)">
+    <a href="topic_00000000000001FB.html" target="vbdocright">Enum_Manipulator Class</a>
+    </div>
+    <div id="c28" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="29" class="header closed" onclick="toggle('c29',this)">
+    <a href="topic_00000000000001FB_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c29" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="30" class="header closed" onclick="toggle('c30',this)">
+    <a href="topic_0000000000000189.html" target="vbdocright">Extensions Class</a>
+    </div>
+    <div id="c30" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="31" class="header closed" onclick="toggle('c31',this)">
+    <a href="topic_0000000000000189_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c31" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001BC.html" target="vbdocright">CloneStrings Method</a></div>
+  
+
+						
+						
+						      <div id="32" class="header closed" onclick="toggle('c32',this)">
+    <a href="topic_00000000000001A4_overloads--.html" target="vbdocright">FirstPart Method</a>
+    </div>
+    <div id="c32" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001A4.html" target="vbdocright">FirstPart(this string, int) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001A6.html" target="vbdocright">FirstPart(this string, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="33" class="header closed" onclick="toggle('c33',this)">
+    <a href="topic_00000000000001A3_overloads--.html" target="vbdocright">FirstParts Method</a>
+    </div>
+    <div id="c33" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001A3.html" target="vbdocright">FirstParts(this IEnumerable&lt;String&gt;, int) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001A5.html" target="vbdocright">FirstParts(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="34" class="header closed" onclick="toggle('c34',this)">
+    <a href="topic_000000000000018A_overloads--.html" target="vbdocright">GetText Method</a>
+    </div>
+    <div id="c34" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000018E.html" target="vbdocright">GetText(this List&lt;Byte&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000018C.html" target="vbdocright">GetText(this IEnumerable&lt;Double&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000018D.html" target="vbdocright">GetText(this IEnumerable&lt;Int32&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000018B.html" target="vbdocright">GetText(this IEnumerable&lt;Int64&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000018A.html" target="vbdocright">GetText(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000190.html" target="vbdocright">GetText(this Dictionary&lt;Int32Int32&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000018F.html" target="vbdocright">GetText(this Dictionary&lt;StringInt32&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000191.html" target="vbdocright">GetText(this Dictionary&lt;StringList&lt;String&gt;&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="35" class="header closed" onclick="toggle('c35',this)">
+    <a href="topic_0000000000000193_overloads--.html" target="vbdocright">Index Method</a>
+    </div>
+    <div id="c35" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000194.html" target="vbdocright">Index(this IEnumerable&lt;String&gt;, string, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000193.html" target="vbdocright">Index(this IEnumerable&lt;String&gt;, string, TextMatch) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B0.html" target="vbdocright">InsertAfter Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AF.html" target="vbdocright">InsertBefore Method</a></div>
+  
+
+						      <div id="36" class="header closed" onclick="toggle('c36',this)">
+    <a href="topic_00000000000001B1_overloads--.html" target="vbdocright">InsertBeforeAfter Method</a>
+    </div>
+    <div id="c36" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001B2.html" target="vbdocright">InsertBeforeAfter(this IEnumerable&lt;String&gt;, string, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001B1.html" target="vbdocright">InsertBeforeAfter(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A8.html" target="vbdocright">LastPart Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A7.html" target="vbdocright">LastParts Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001BB.html" target="vbdocright">Matches Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001BA.html" target="vbdocright">Multiply Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AE.html" target="vbdocright">NotFirstPart Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AD.html" target="vbdocright">NotFirstParts Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AC.html" target="vbdocright">NotLastPart Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AB.html" target="vbdocright">NotLastParts Method</a></div>
+  
+
+						      <div id="37" class="header closed" onclick="toggle('c37',this)">
+    <a href="topic_000000000000019F_overloads--.html" target="vbdocright">Remove Method</a>
+    </div>
+    <div id="c37" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001A1.html" target="vbdocright">Remove(this string, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001A0.html" target="vbdocright">Remove(this string, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001A2.html" target="vbdocright">Remove(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000019F.html" target="vbdocright">Remove(this IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019B.html" target="vbdocright">SplitToDouble Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019C.html" target="vbdocright">SplitToInt16 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019E.html" target="vbdocright">SplitToInt64 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019A.html" target="vbdocright">SplitToInteger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000019D.html" target="vbdocright">SplitToSingle Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000192.html" target="vbdocright">ToDictionary Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000196.html" target="vbdocright">ToDouble Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000197.html" target="vbdocright">ToInt16 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000199.html" target="vbdocright">ToInt64 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000195.html" target="vbdocright">ToInteger Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000198.html" target="vbdocright">ToSingle Method</a></div>
+  
+
+						
+						      <div id="38" class="header closed" onclick="toggle('c38',this)">
+    <a href="topic_00000000000001B3_overloads--.html" target="vbdocright">Trim Method</a>
+    </div>
+    <div id="c38" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001B3.html" target="vbdocright">Trim(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001B4.html" target="vbdocright">Trim(this IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="39" class="header closed" onclick="toggle('c39',this)">
+    <a href="topic_00000000000001B7_overloads--.html" target="vbdocright">TrimEnd Method</a>
+    </div>
+    <div id="c39" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001B7.html" target="vbdocright">TrimEnd(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001B8.html" target="vbdocright">TrimEnd(this IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="40" class="header closed" onclick="toggle('c40',this)">
+    <a href="topic_00000000000001B5_overloads--.html" target="vbdocright">TrimStart Method</a>
+    </div>
+    <div id="c40" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001B5.html" target="vbdocright">TrimStart(this IEnumerable&lt;String&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001B6.html" target="vbdocright">TrimStart(this IEnumerable&lt;String&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001AA.html" target="vbdocright">XthPart Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001A9.html" target="vbdocright">XthParts Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001B9.html" target="vbdocright">aZ09_ Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="41" class="header closed" onclick="toggle('c41',this)">
+    <a href="topic_0000000000000180.html" target="vbdocright">Location_Extension Class</a>
+    </div>
+    <div id="c41" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="42" class="header closed" onclick="toggle('c42',this)">
+    <a href="topic_0000000000000180_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c42" class="item" style="display:none">
+		
+						      <div id="43" class="header closed" onclick="toggle('c43',this)">
+    <a href="topic_0000000000000184_overloads--.html" target="vbdocright">Current_Position Method</a>
+    </div>
+    <div id="c43" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000188.html" target="vbdocright">Current_Position(this ILocation, Locations_By) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000184.html" target="vbdocright">Current_Position(this Location, Locations_By) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						      <div id="44" class="header closed" onclick="toggle('c44',this)">
+    <a href="topic_0000000000000183_overloads--.html" target="vbdocright">IsComplementer Method</a>
+    </div>
+    <div id="c44" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000187.html" target="vbdocright">IsComplementer(this ILocation) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000183.html" target="vbdocright">IsComplementer(this Location) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="45" class="header closed" onclick="toggle('c45',this)">
+    <a href="topic_0000000000000182_overloads--.html" target="vbdocright">PAS Method</a>
+    </div>
+    <div id="c45" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000186.html" target="vbdocright">PAS(this ILocation) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000182.html" target="vbdocright">PAS(this Location) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="46" class="header closed" onclick="toggle('c46',this)">
+    <a href="topic_0000000000000181_overloads--.html" target="vbdocright">TSS Method</a>
+    </div>
+    <div id="c46" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000185.html" target="vbdocright">TSS(this ILocation) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000181.html" target="vbdocright">TSS(this Location) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="47" class="header closed" onclick="toggle('c47',this)">
+    <a href="topic_00000000000001F6.html" target="vbdocright">PredicateBuilder Class</a>
+    </div>
+    <div id="c47" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="48" class="header closed" onclick="toggle('c48',this)">
+    <a href="topic_00000000000001F6_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c48" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001FA.html" target="vbdocright">And(Of T) Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001F8.html" target="vbdocright">False(Of T) Method</a></div>
+  
+
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001F9.html" target="vbdocright">Or(Of T) Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001F7.html" target="vbdocright">True(Of T) Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="49" class="header closed" onclick="toggle('c49',this)">
+    <a href="topic_00000000000001C9.html" target="vbdocright">Szunyi.Common.Other_Database.CrossRefs Namespace</a>
+    </div>
+    <div id="c49" class="item" style="display:none">
+		
+
+						    <div id="50" class="header closed" onclick="toggle('c50',this)">
+    <a href="topic_00000000000001E8.html" target="vbdocright">ComparerOfCrossRefOneToMany Class</a>
+    </div>
+    <div id="c50" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="51" class="header closed" onclick="toggle('c51',this)">
+    <a href="topic_00000000000001E8_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c51" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001E9.html" target="vbdocright">Compare Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="52" class="header closed" onclick="toggle('c52',this)">
+    <a href="topic_00000000000001E0.html" target="vbdocright">ComparerOfCrossRefOneToOneBySecond Class</a>
+    </div>
+    <div id="c52" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="53" class="header closed" onclick="toggle('c53',this)">
+    <a href="topic_00000000000001E0_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c53" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001E1.html" target="vbdocright">Compare Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="54" class="header closed" onclick="toggle('c54',this)">
+    <a href="topic_00000000000001DE.html" target="vbdocright">ComparerOfCrossrefOneToOneByFirst Class</a>
+    </div>
+    <div id="c54" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="55" class="header closed" onclick="toggle('c55',this)">
+    <a href="topic_00000000000001DE_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c55" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001DF.html" target="vbdocright">Compare Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="56" class="header closed" onclick="toggle('c56',this)">
+    <a href="topic_00000000000001CA.html" target="vbdocright">CrossRefBuilders Class</a>
+    </div>
+    <div id="c56" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="57" class="header closed" onclick="toggle('c57',this)">
+    <a href="topic_00000000000001CA_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c57" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001CD.html" target="vbdocright">OneToManyComparer Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001CB.html" target="vbdocright">OneToOneByFirstComparer Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001CC.html" target="vbdocright">OneToOneBySecondComparer Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="58" class="header closed" onclick="toggle('c58',this)">
+    <a href="topic_00000000000001CA_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c58" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001D8.html" target="vbdocright">FlipOneToOne Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001D3.html" target="vbdocright">GetOneToMany Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001CF.html" target="vbdocright">GetOneToManyByFirst Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001D0.html" target="vbdocright">GetOneToManyBySecond Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001D4.html" target="vbdocright">GetOneToManyFromFile Method</a></div>
+  
+
+						      <div id="59" class="header closed" onclick="toggle('c59',this)">
+    <a href="topic_00000000000001D5_overloads--.html" target="vbdocright">GetOneToOneFromFile Method</a>
+    </div>
+    <div id="c59" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001D5.html" target="vbdocright">GetOneToOneFromFile(IEnumerable&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001D6.html" target="vbdocright">GetOneToOneFromFile(IEnumerable&lt;String&gt;, int, int, int) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001D2.html" target="vbdocright">GetValues Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001CE.html" target="vbdocright">Get_Distinct_Seconds Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001D9.html" target="vbdocright">GetwShortLocusTag Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000001D1.html" target="vbdocright">SaveOneToMany Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001D7.html" target="vbdocright">SaveOneToOne Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="60" class="header closed" onclick="toggle('c60',this)">
+    <a href="topic_00000000000001E2.html" target="vbdocright">CrossRefOneToMany Class</a>
+    </div>
+    <div id="c60" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="61" class="header closed" onclick="toggle('c61',this)">
+    <a href="topic_00000000000001E5_overloads--.html" target="vbdocright">CrossRefOneToMany Constructor</a>
+    </div>
+    <div id="c61" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000001E5.html" target="vbdocright">CrossRefOneToMany(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001E7.html" target="vbdocright">CrossRefOneToMany(string, List&lt;String&gt;) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000001E6.html" target="vbdocright">CrossRefOneToMany(string, string[]) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="62" class="header closed" onclick="toggle('c62',this)">
+    <a href="topic_00000000000001E2_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c62" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="63" class="header closed" onclick="toggle('c63',this)">
+    <a href="topic_00000000000001E2_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c63" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001E4.html" target="vbdocright">Many Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001E3.html" target="vbdocright">One Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="64" class="header closed" onclick="toggle('c64',this)">
+    <a href="topic_00000000000001DA.html" target="vbdocright">CrossRefOneToOne Class</a>
+    </div>
+    <div id="c64" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000001DD.html" target="vbdocright">CrossRefOneToOne Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="65" class="header closed" onclick="toggle('c65',this)">
+    <a href="topic_00000000000001DA_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c65" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000001DB.html" target="vbdocright">First Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000001DC.html" target="vbdocright">Second Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="66" class="header closed" onclick="toggle('c66',this)">
+    <a href="topic_00000000000001DA_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c66" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="67" class="header closed" onclick="toggle('c67',this)">
+    <a href="topic_00000000000001FF.html" target="vbdocright">Szunyi.IO Namespace</a>
+    </div>
+    <div id="c67" class="item" style="display:none">
+		
+
+						    <div id="68" class="header closed" onclick="toggle('c68',this)">
+    <a href="topic_0000000000000000.html" target="vbdocright">CheckBoxForStringsFull Class</a>
+    </div>
+    <div id="c68" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="69" class="header closed" onclick="toggle('c69',this)">
+    <a href="topic_0000000000000008_overloads--.html" target="vbdocright">CheckBoxForStringsFull Constructor</a>
+    </div>
+    <div id="c69" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000008.html" target="vbdocright">CheckBoxForStringsFull() Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000000D.html" target="vbdocright">CheckBoxForStringsFull(List&lt;FileInfo&gt;, int, string, List&lt;FileInfo&gt;) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000000C.html" target="vbdocright">CheckBoxForStringsFull(List&lt;ISequence&gt;, int, string, List&lt;String&gt;) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000000A.html" target="vbdocright">CheckBoxForStringsFull(List&lt;String&gt;, int, string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000009.html" target="vbdocright">CheckBoxForStringsFull(List&lt;String&gt;, int, string, List&lt;String&gt;) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000000B.html" target="vbdocright">CheckBoxForStringsFull(SortedList&lt;StringInt16&gt;, int, string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="70" class="header closed" onclick="toggle('c70',this)">
+    <a href="topic_0000000000000000_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c70" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000006.html" target="vbdocright">Max_Nof_SelectedItems Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000007.html" target="vbdocright">SelSeqs Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000004.html" target="vbdocright">SelectedFiles Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000003.html" target="vbdocright">SelectedIndexes Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000005.html" target="vbdocright">SelectedObj Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000002.html" target="vbdocright">SelectedStrings Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="71" class="header closed" onclick="toggle('c71',this)">
+    <a href="topic_0000000000000000_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c71" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000000E.html" target="vbdocright">Clear_Selections Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000001.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="72" class="header closed" onclick="toggle('c72',this)">
+    <a href="topic_000000000000008B.html" target="vbdocright">Export Class</a>
+    </div>
+    <div id="c72" class="item" style="display:none">
+		
+
+						    <div id="73" class="header closed" onclick="toggle('c73',this)">
+    <a href="topic_00000000000000A9.html" target="vbdocright">Fasta_Exporter Class</a>
+    </div>
+    <div id="c73" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000AA.html" target="vbdocright">Fasta_Exporter Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="74" class="header closed" onclick="toggle('c74',this)">
+    <a href="topic_00000000000000A9_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c74" class="item" style="display:none">
+		
+						      <div id="75" class="header closed" onclick="toggle('c75',this)">
+    <a href="topic_00000000000000AD_overloads--.html" target="vbdocright">Dispose Method</a>
+    </div>
+    <div id="c75" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000AD.html" target="vbdocright">Dispose(bool) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000AE.html" target="vbdocright">Dispose() Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						
+						
+						      <div id="76" class="header closed" onclick="toggle('c76',this)">
+    <a href="topic_00000000000000AB_overloads--.html" target="vbdocright">Write Method</a>
+    </div>
+    <div id="c76" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000AB.html" target="vbdocright">Write(ISequence) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000AC.html" target="vbdocright">Write(IEnumerable&lt;ISequence&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="77" class="header closed" onclick="toggle('c77',this)">
+    <a href="topic_00000000000000A3.html" target="vbdocright">Text_Exporter Class</a>
+    </div>
+    <div id="c77" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_00000000000000A4.html" target="vbdocright">Text_Exporter Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="78" class="header closed" onclick="toggle('c78',this)">
+    <a href="topic_00000000000000A3_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c78" class="item" style="display:none">
+		
+						      <div id="79" class="header closed" onclick="toggle('c79',this)">
+    <a href="topic_00000000000000A7_overloads--.html" target="vbdocright">Dispose Method</a>
+    </div>
+    <div id="c79" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000A7.html" target="vbdocright">Dispose(bool) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000A8.html" target="vbdocright">Dispose() Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						
+						
+						      <div id="80" class="header closed" onclick="toggle('c80',this)">
+    <a href="topic_00000000000000A5_overloads--.html" target="vbdocright">Write Method</a>
+    </div>
+    <div id="c80" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000A5.html" target="vbdocright">Write(string, bool) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000A6.html" target="vbdocright">Write(IEnumerable&lt;String&gt;, bool) Method</a></div>
+		              
+	
+	</div>         
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="81" class="header closed" onclick="toggle('c81',this)">
+    <a href="topic_000000000000008B_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c81" class="item" style="display:none">
+		
+						      <div id="82" class="header closed" onclick="toggle('c82',this)">
+    <a href="topic_000000000000009C_overloads--.html" target="vbdocright">BED Method</a>
+    </div>
+    <div id="c82" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000009D.html" target="vbdocright">BED(IList&lt;ISequenceRange&gt;, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009C.html" target="vbdocright">BED(IList&lt;SequenceRange&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000A2.html" target="vbdocright">Export_Sam Method</a></div>
+  
+
+						      <div id="83" class="header closed" onclick="toggle('c83',this)">
+    <a href="topic_0000000000000090_overloads--.html" target="vbdocright">Fasta Method</a>
+    </div>
+    <div id="c83" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000090.html" target="vbdocright">Fasta(ISequence) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000092.html" target="vbdocright">Fasta(ISequence, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000091.html" target="vbdocright">Fasta(IEnumerable&lt;ISequence&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000093.html" target="vbdocright">Fasta(IEnumerable&lt;ISequence&gt;, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="84" class="header closed" onclick="toggle('c84',this)">
+    <a href="topic_0000000000000094_overloads--.html" target="vbdocright">Fastq Method</a>
+    </div>
+    <div id="c84" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000094.html" target="vbdocright">Fastq(QualitativeSequence) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000096.html" target="vbdocright">Fastq(QualitativeSequence, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000095.html" target="vbdocright">Fastq(IEnumerable&lt;ISequence&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000097.html" target="vbdocright">Fastq(IEnumerable&lt;ISequence&gt;, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="85" class="header closed" onclick="toggle('c85',this)">
+    <a href="topic_000000000000008C_overloads--.html" target="vbdocright">File_To_Save Method</a>
+    </div>
+    <div id="c85" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000008D.html" target="vbdocright">File_To_Save(string, DirectoryInfo, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000008C.html" target="vbdocright">File_To_Save(string, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="86" class="header closed" onclick="toggle('c86',this)">
+    <a href="topic_0000000000000098_overloads--.html" target="vbdocright">GenBank Method</a>
+    </div>
+    <div id="c86" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000098.html" target="vbdocright">GenBank(ISequence) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009A.html" target="vbdocright">GenBank(ISequence, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000099.html" target="vbdocright">GenBank(IEnumerable&lt;ISequence&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009B.html" target="vbdocright">GenBank(IEnumerable&lt;ISequence&gt;, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						      <div id="87" class="header closed" onclick="toggle('c87',this)">
+    <a href="topic_000000000000009E_overloads--.html" target="vbdocright">Gff Method</a>
+    </div>
+    <div id="c87" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000009E.html" target="vbdocright">Gff(ISequence) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000A0.html" target="vbdocright">Gff(ISequence, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000009F.html" target="vbdocright">Gff(IEnumerable&lt;ISequence&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000A1.html" target="vbdocright">Gff(IEnumerable&lt;ISequence&gt;, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="88" class="header closed" onclick="toggle('c88',this)">
+    <a href="topic_000000000000008E_overloads--.html" target="vbdocright">Text Method</a>
+    </div>
+    <div id="c88" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000008F.html" target="vbdocright">Text(string, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000008E.html" target="vbdocright">Text(string, string, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="89" class="header closed" onclick="toggle('c89',this)">
+    <a href="topic_000000000000011A.html" target="vbdocright">FileSystem Class</a>
+    </div>
+    <div id="c89" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="90" class="header closed" onclick="toggle('c90',this)">
+    <a href="topic_000000000000011A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c90" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000011B.html" target="vbdocright">Delete Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000011F.html" target="vbdocright">Merge_Files Method</a></div>
+  
+
+						      <div id="91" class="header closed" onclick="toggle('c91',this)">
+    <a href="topic_000000000000011C_overloads--.html" target="vbdocright">Move Method</a>
+    </div>
+    <div id="c91" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000011E.html" target="vbdocright">Move(List&lt;FileInfo&gt;, DirectoryInfo, List&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000011C.html" target="vbdocright">Move(List&lt;FileInfo&gt;, List&lt;FileInfo&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000011D.html" target="vbdocright">Move(FileInfo, FileInfo, List&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="92" class="header closed" onclick="toggle('c92',this)">
+    <a href="topic_0000000000000100.html" target="vbdocright">File_Extension Class</a>
+    </div>
+    <div id="c92" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="93" class="header closed" onclick="toggle('c93',this)">
+    <a href="topic_0000000000000100_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c93" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="94" class="header closed" onclick="toggle('c94',this)">
+    <a href="topic_0000000000000100_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c94" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000104.html" target="vbdocright">Filter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000102.html" target="vbdocright">GenBank Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000101.html" target="vbdocright">KAnalyse Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000105.html" target="vbdocright">VanKrevelen Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000106.html" target="vbdocright">Xml Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000107.html" target="vbdocright">b0 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000108.html" target="vbdocright">b1 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000111.html" target="vbdocright">b10 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000112.html" target="vbdocright">b11 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000113.html" target="vbdocright">b12 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000114.html" target="vbdocright">b13 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000115.html" target="vbdocright">b14 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000116.html" target="vbdocright">b15 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000117.html" target="vbdocright">b16 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000118.html" target="vbdocright">b17 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000119.html" target="vbdocright">b18 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000109.html" target="vbdocright">b2 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010A.html" target="vbdocright">b3 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010B.html" target="vbdocright">b4 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010C.html" target="vbdocright">b5 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010D.html" target="vbdocright">b6 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010E.html" target="vbdocright">b7 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000010F.html" target="vbdocright">b8 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000110.html" target="vbdocright">b9 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000103.html" target="vbdocright">fasta Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="95" class="header closed" onclick="toggle('c95',this)">
+    <a href="topic_00000000000000D4.html" target="vbdocright">File_Extensions Class</a>
+    </div>
+    <div id="c95" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="96" class="header closed" onclick="toggle('c96',this)">
+    <a href="topic_00000000000000D4_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c96" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="97" class="header closed" onclick="toggle('c97',this)">
+    <a href="topic_00000000000000D4_vars--.html" target="vbdocright">Fields</a>
+    </div>
+    <div id="c97" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_00000000000000E2.html" target="vbdocright">All_TAB_Like Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E8.html" target="vbdocright">BAM Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DE.html" target="vbdocright">BED Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FF.html" target="vbdocright">Blast Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FE.html" target="vbdocright">BlastAll Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F7.html" target="vbdocright">Blast_Flat_Query_Anchored_wIdentities Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F8.html" target="vbdocright">Blast_Flat_Query_Anchored_woIdentities Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F4.html" target="vbdocright">Blast_PairWise Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F5.html" target="vbdocright">Blast_Query_Anchored_wIdentities Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F6.html" target="vbdocright">Blast_Query_Anchored_woIdentities Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F9.html" target="vbdocright">Blast_XML Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FA.html" target="vbdocright">Blast_tabular Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FB.html" target="vbdocright">Blast_tabular_wComment Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E3.html" target="vbdocright">Fast5 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000EE.html" target="vbdocright">FastQ Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E4.html" target="vbdocright">Fasta Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000EC.html" target="vbdocright">Fasta_FastQ Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000ED.html" target="vbdocright">Fasta_FastQ_gz Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FC.html" target="vbdocright">Filter Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E5.html" target="vbdocright">GenBank Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000EB.html" target="vbdocright">Gzip Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000EA.html" target="vbdocright">HDF5 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000FD.html" target="vbdocright">KAnalyse Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D9.html" target="vbdocright">Loc_SAM_BAM Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DA.html" target="vbdocright">Location Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E0.html" target="vbdocright">Log Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F1.html" target="vbdocright">PhylogeneticXml Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D7.html" target="vbdocright">PoreCHop Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E7.html" target="vbdocright">SAM Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E9.html" target="vbdocright">SAM_BAM Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D8.html" target="vbdocright">SAM_BAM_Fastq Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DF.html" target="vbdocright">SelectFolder Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000EF.html" target="vbdocright">SequenceFileTypesToImport Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F0.html" target="vbdocright">Settings Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F2.html" target="vbdocright">SignalP Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000F3.html" target="vbdocright">VanKrevelen Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E1.html" target="vbdocright">Xml Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D6.html" target="vbdocright">csv Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000E6.html" target="vbdocright">gff3 Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DC.html" target="vbdocright">gpg Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D5.html" target="vbdocright">mzXML Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DB.html" target="vbdocright">rep Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000DD.html" target="vbdocright">vcf Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="98" class="header closed" onclick="toggle('c98',this)">
+    <a href="topic_000000000000001D.html" target="vbdocright">Filter Class</a>
+    </div>
+    <div id="c98" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="99" class="header closed" onclick="toggle('c99',this)">
+    <a href="topic_0000000000000020_overloads--.html" target="vbdocright">Filter Constructor</a>
+    </div>
+    <div id="c99" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000021.html" target="vbdocright">Filter(Type, DirectoryInfo) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000020.html" target="vbdocright">Filter(List&lt;String&gt;) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="100" class="header closed" onclick="toggle('c100',this)">
+    <a href="topic_000000000000001D_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c100" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000001F.html" target="vbdocright">MyT Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000001E.html" target="vbdocright">Setting Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="101" class="header closed" onclick="toggle('c101',this)">
+    <a href="topic_000000000000001D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c101" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000028.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="102" class="header closed" onclick="toggle('c102',this)">
+    <a href="topic_0000000000000022.html" target="vbdocright">Filter_Setting Class</a>
+    </div>
+    <div id="c102" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000027.html" target="vbdocright">Filter_Setting Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="103" class="header closed" onclick="toggle('c103',this)">
+    <a href="topic_0000000000000022_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c103" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000026.html" target="vbdocright">EnumName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000024.html" target="vbdocright">EnumValue Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000023.html" target="vbdocright">Name Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000025.html" target="vbdocright">Value Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="104" class="header closed" onclick="toggle('c104',this)">
+    <a href="topic_0000000000000022_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c104" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="105" class="header closed" onclick="toggle('c105',this)">
+    <a href="topic_0000000000000029.html" target="vbdocright">FolderSelectDialog Class</a>
+    </div>
+    <div id="c105" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000002A.html" target="vbdocright">FolderSelectDialog Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="106" class="header closed" onclick="toggle('c106',this)">
+    <a href="topic_0000000000000029_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c106" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000002D.html" target="vbdocright">FolderName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002E.html" target="vbdocright">FolderNames Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002B.html" target="vbdocright">InitialDirectory Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000002C.html" target="vbdocright">Title Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="107" class="header closed" onclick="toggle('c107',this)">
+    <a href="topic_0000000000000029_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c107" class="item" style="display:none">
+		
+						      <div id="108" class="header closed" onclick="toggle('c108',this)">
+    <a href="topic_0000000000000032_overloads--.html" target="vbdocright">Dispose Method</a>
+    </div>
+    <div id="c108" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000032.html" target="vbdocright">Dispose(bool) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000033.html" target="vbdocright">Dispose() Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						
+						      <div id="109" class="header closed" onclick="toggle('c109',this)">
+    <a href="topic_000000000000002F_overloads--.html" target="vbdocright">ShowDialog Method</a>
+    </div>
+    <div id="c109" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000002F.html" target="vbdocright">ShowDialog() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000030.html" target="vbdocright">ShowDialog(Form) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000031.html" target="vbdocright">ShowDialog(IntPtr) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="110" class="header closed" onclick="toggle('c110',this)">
+    <a href="topic_000000000000000F.html" target="vbdocright">ForCheckBox Class</a>
+    </div>
+    <div id="c110" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="111" class="header closed" onclick="toggle('c111',this)">
+    <a href="topic_0000000000000013_overloads--.html" target="vbdocright">ForCheckBox Constructor</a>
+    </div>
+    <div id="c111" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000013.html" target="vbdocright">ForCheckBox(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000014.html" target="vbdocright">ForCheckBox(string, object) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="112" class="header closed" onclick="toggle('c112',this)">
+    <a href="topic_000000000000000F_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c112" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000010.html" target="vbdocright">Checked Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000011.html" target="vbdocright">Name Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000012.html" target="vbdocright">obj Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="113" class="header closed" onclick="toggle('c113',this)">
+    <a href="topic_000000000000000F_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c113" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="114" class="header closed" onclick="toggle('c114',this)">
+    <a href="topic_000000000000006D.html" target="vbdocright">Parameters Class</a>
+    </div>
+    <div id="c114" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="115" class="header closed" onclick="toggle('c115',this)">
+    <a href="topic_000000000000006D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c115" class="item" style="display:none">
+		
+						
+						
+						
+						
+						      <div id="116" class="header closed" onclick="toggle('c116',this)">
+    <a href="topic_000000000000006E_overloads--.html" target="vbdocright">Get_Integer Method</a>
+    </div>
+    <div id="c116" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000006E.html" target="vbdocright">Get_Integer(string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000006F.html" target="vbdocright">Get_Integer(string, int) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000070.html" target="vbdocright">Get_Integer(string, int, int) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000071.html" target="vbdocright">Get_Integer(string, int, int, int) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="117" class="header closed" onclick="toggle('c117',this)">
+    <a href="topic_0000000000000137.html" target="vbdocright">Pick_Up Class</a>
+    </div>
+    <div id="c117" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="118" class="header closed" onclick="toggle('c118',this)">
+    <a href="topic_0000000000000137_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c118" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000014A.html" target="vbdocright">BAM Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014C.html" target="vbdocright">BED Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000143.html" target="vbdocright">Csv Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013B.html" target="vbdocright">Directories Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013A.html" target="vbdocright">Directory Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000141.html" target="vbdocright">Fast5 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013C.html" target="vbdocright">Fasta Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013D.html" target="vbdocright">Fasta_Fastq Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000013E.html" target="vbdocright">Fastq Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000139.html" target="vbdocright">File Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000138.html" target="vbdocright">Files Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000013F.html" target="vbdocright">GenBank Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000142.html" target="vbdocright">Gff Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000144.html" target="vbdocright">Log Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000149.html" target="vbdocright">SAM Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014B.html" target="vbdocright">SAM_BAM Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000140.html" target="vbdocright">Sequence Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000014E.html" target="vbdocright">String Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000146.html" target="vbdocright">TabLike Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000145.html" target="vbdocright">TabLikes Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000014D.html" target="vbdocright">VCF Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000148.html" target="vbdocright">XML Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000147.html" target="vbdocright">XMLs Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="119" class="header closed" onclick="toggle('c119',this)">
+    <a href="topic_0000000000000037.html" target="vbdocright">Reflector Class</a>
+    </div>
+    <div id="c119" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="120" class="header closed" onclick="toggle('c120',this)">
+    <a href="topic_0000000000000038_overloads--.html" target="vbdocright">Reflector Constructor</a>
+    </div>
+    <div id="c120" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000003B.html" target="vbdocright">New(string, params object[]) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000039.html" target="vbdocright">Reflector(string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000038.html" target="vbdocright">Reflector(string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="121" class="header closed" onclick="toggle('c121',this)">
+    <a href="topic_0000000000000037_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c121" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000003C.html" target="vbdocright">Call Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000003D.html" target="vbdocright">Call2 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000003E.html" target="vbdocright">CallAs Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000003F.html" target="vbdocright">CallAs2 Method</a></div>
+  
+
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000040.html" target="vbdocright">Get Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000041.html" target="vbdocright">GetAs Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000042.html" target="vbdocright">GetEnum Method</a></div>
+  
+
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000003A.html" target="vbdocright">MyGetType Method</a></div>
+  
+
+						      <div id="122" class="header closed" onclick="toggle('c122',this)">
+    <a href="topic_000000000000003B_overloads--.html" target="vbdocright">New Method</a>
+    </div>
+    <div id="c122" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000003B.html" target="vbdocright">New(string, params object[]) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000039.html" target="vbdocright">Reflector(string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000038.html" target="vbdocright">Reflector(string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="123" class="header closed" onclick="toggle('c123',this)">
+    <a href="topic_000000000000007E.html" target="vbdocright">Util_Helpers Class</a>
+    </div>
+    <div id="c123" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="124" class="header closed" onclick="toggle('c124',this)">
+    <a href="topic_000000000000007E_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c124" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000080.html" target="vbdocright">Get_All_Enum_Names(Of t) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000007F.html" target="vbdocright">Get_All_Enum_Names_Values(Of t) Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000081.html" target="vbdocright">Get_Enum_Name(Of T) Method</a></div>
+  
+
+						      <div id="125" class="header closed" onclick="toggle('c125',this)">
+    <a href="topic_0000000000000082_overloads--.html" target="vbdocright">Get_Enum_Value(Of T) Method</a>
+    </div>
+    <div id="c125" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000083.html" target="vbdocright">Get_Enum_Value&lt;T&gt;(List&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000082.html" target="vbdocright">Get_Enum_Value&lt;T&gt;(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000084.html" target="vbdocright">Get_Property_Value Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000085.html" target="vbdocright">Set_Filter_Settings(Of t) Method</a></div>
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="126" class="header closed" onclick="toggle('c126',this)">
+    <a href="topic_0000000000000034.html" target="vbdocright">WindowWrapper Class</a>
+    </div>
+    <div id="c126" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000035.html" target="vbdocright">WindowWrapper Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="127" class="header closed" onclick="toggle('c127',this)">
+    <a href="topic_0000000000000034_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c127" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000036.html" target="vbdocright">Handle Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="128" class="header closed" onclick="toggle('c128',this)">
+    <a href="topic_0000000000000034_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c128" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="129" class="header closed" onclick="toggle('c129',this)">
+    <a href="topic_0000000000000086.html" target="vbdocright">XML Class</a>
+    </div>
+    <div id="c129" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="130" class="header closed" onclick="toggle('c130',this)">
+    <a href="topic_0000000000000086_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c130" class="item" style="display:none">
+		
+						      <div id="131" class="header closed" onclick="toggle('c131',this)">
+    <a href="topic_0000000000000089_overloads--.html" target="vbdocright">Deserialize(Of T) Method</a>
+    </div>
+    <div id="c131" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000008A.html" target="vbdocright">Deserialize&lt;T&gt;(FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000089.html" target="vbdocright">Deserialize&lt;T&gt;(string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						
+						
+						
+						
+						      <div id="132" class="header closed" onclick="toggle('c132',this)">
+    <a href="topic_0000000000000087_overloads--.html" target="vbdocright">Serialize(Of T) Method</a>
+    </div>
+    <div id="c132" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000087.html" target="vbdocright">Serialize&lt;T&gt;(T) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000088.html" target="vbdocright">Serialize&lt;T&gt;(T, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="133" class="header closed" onclick="toggle('c133',this)">
+    <a href="topic_0000000000000072.html" target="vbdocright">tblb Class</a>
+    </div>
+    <div id="c133" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="134" class="header closed" onclick="toggle('c134',this)">
+    <a href="topic_0000000000000079_overloads--.html" target="vbdocright">tblb Constructor</a>
+    </div>
+    <div id="c134" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000079.html" target="vbdocright">tblb() Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000007A.html" target="vbdocright">tblb(List&lt;Object&gt;, string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="135" class="header closed" onclick="toggle('c135',this)">
+    <a href="topic_0000000000000072_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c135" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000076.html" target="vbdocright">DisplayMember Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000073.html" target="vbdocright">Original Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000075.html" target="vbdocright">SelItem Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000074.html" target="vbdocright">Selected Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="136" class="header closed" onclick="toggle('c136',this)">
+    <a href="topic_0000000000000072_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c136" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000007D.html" target="vbdocright">Dispose Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000007C.html" target="vbdocright">SetDisplayMember Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000007B.html" target="vbdocright">SetIt Method</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="137" class="header closed" onclick="toggle('c137',this)">
+    <a href="topic_0000000000000072_events--.html" target="vbdocright">Events</a>
+    </div>
+    <div id="c137" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000078.html" target="vbdocright">D_Click Event</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000077.html" target="vbdocright">IndexChanged Event</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+						    <div id="138" class="header closed" onclick="toggle('c138',this)">
+    <a href="topic_00000000000000AF.html" target="vbdocright">Extensions Class</a>
+    </div>
+    <div id="c138" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="139" class="header closed" onclick="toggle('c139',this)">
+    <a href="topic_00000000000000AF_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c139" class="item" style="display:none">
+		
+						      <div id="140" class="header closed" onclick="toggle('c140',this)">
+    <a href="topic_00000000000000B9_overloads--.html" target="vbdocright">Append_Before_Extension Method</a>
+    </div>
+    <div id="c140" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000B9.html" target="vbdocright">Append_Before_Extension(this FileInfo, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BB.html" target="vbdocright">Append_Before_Extension(this FileInfo, FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BC.html" target="vbdocright">Append_Before_Extension(this FileInfo, IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BA.html" target="vbdocright">Append_Before_Extension(this IEnumerable&lt;FileInfo&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="141" class="header closed" onclick="toggle('c141',this)">
+    <a href="topic_00000000000000BD_overloads--.html" target="vbdocright">Append_First Method</a>
+    </div>
+    <div id="c141" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000BD.html" target="vbdocright">Append_First(this FileInfo, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BE.html" target="vbdocright">Append_First(this IEnumerable&lt;FileInfo&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="142" class="header closed" onclick="toggle('c142',this)">
+    <a href="topic_00000000000000B7_overloads--.html" target="vbdocright">ChangeExtension Method</a>
+    </div>
+    <div id="c142" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000B7.html" target="vbdocright">ChangeExtension(this FileInfo, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000B8.html" target="vbdocright">ChangeExtension(this IEnumerable&lt;FileInfo&gt;, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D2.html" target="vbdocright">Change_Directory Method</a></div>
+  
+
+						      <div id="143" class="header closed" onclick="toggle('c143',this)">
+    <a href="topic_00000000000000C1_overloads--.html" target="vbdocright">Convert_CSV_To_TDT Method</a>
+    </div>
+    <div id="c143" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000C1.html" target="vbdocright">Convert_CSV_To_TDT(this FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000C2.html" target="vbdocright">Convert_CSV_To_TDT(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="144" class="header closed" onclick="toggle('c144',this)">
+    <a href="topic_00000000000000C3_overloads--.html" target="vbdocright">Convert_TDT_to_CSV Method</a>
+    </div>
+    <div id="c144" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000C3.html" target="vbdocright">Convert_TDT_to_CSV(this FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000C4.html" target="vbdocright">Convert_TDT_to_CSV(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="145" class="header closed" onclick="toggle('c145',this)">
+    <a href="topic_00000000000000C9_overloads--.html" target="vbdocright">Filter_ByExtension Method</a>
+    </div>
+    <div id="c145" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000C9.html" target="vbdocright">Filter_ByExtension(this IEnumerable&lt;FileInfo&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000CA.html" target="vbdocright">Filter_ByExtension(this IEnumerable&lt;FileInfo&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="146" class="header closed" onclick="toggle('c146',this)">
+    <a href="topic_00000000000000C7_overloads--.html" target="vbdocright">Filter_ByPartialID Method</a>
+    </div>
+    <div id="c146" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000C7.html" target="vbdocright">Filter_ByPartialID(this IEnumerable&lt;FileInfo&gt;, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000C8.html" target="vbdocright">Filter_ByPartialID(this IEnumerable&lt;FileInfo&gt;, IEnumerable&lt;String&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						      <div id="147" class="header closed" onclick="toggle('c147',this)">
+    <a href="topic_00000000000000B0_overloads--.html" target="vbdocright">FullName_Linux Method</a>
+    </div>
+    <div id="c147" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000B0.html" target="vbdocright">FullName_Linux(this DirectoryInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000B1.html" target="vbdocright">FullName_Linux(this FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000B2.html" target="vbdocright">FullName_Linux(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="148" class="header closed" onclick="toggle('c148',this)">
+    <a href="topic_00000000000000B3_overloads--.html" target="vbdocright">FullName_Python Method</a>
+    </div>
+    <div id="c148" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000B3.html" target="vbdocright">FullName_Python(this FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000B4.html" target="vbdocright">FullName_Python(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="149" class="header closed" onclick="toggle('c149',this)">
+    <a href="topic_00000000000000B5_overloads--.html" target="vbdocright">FullName_Windows_cmd Method</a>
+    </div>
+    <div id="c149" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000B5.html" target="vbdocright">FullName_Windows_cmd(this FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000B6.html" target="vbdocright">FullName_Windows_cmd(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						      <div id="150" class="header closed" onclick="toggle('c150',this)">
+    <a href="topic_00000000000000CB_overloads--.html" target="vbdocright">GetFiles_All_Recursive Method</a>
+    </div>
+    <div id="c150" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000CB.html" target="vbdocright">GetFiles_All_Recursive(this DirectoryInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000CC.html" target="vbdocright">GetFiles_All_Recursive(this IEnumerable&lt;DirectoryInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000D3.html" target="vbdocright">GetHeader Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000C6.html" target="vbdocright">GroupBy_Extensione Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000C5.html" target="vbdocright">GroupBy_FIleName Method</a></div>
+  
+
+						
+						      <div id="151" class="header closed" onclick="toggle('c151',this)">
+    <a href="topic_00000000000000BF_overloads--.html" target="vbdocright">Merge Method</a>
+    </div>
+    <div id="c151" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000C0.html" target="vbdocright">Merge(this IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000BF.html" target="vbdocright">Merge(this IEnumerable&lt;FileInfo&gt;, FileInfo) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000CD.html" target="vbdocright">ParseToArray Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_00000000000000D0.html" target="vbdocright">Parse_Lines_By_Group_NotStartWith Method</a></div>
+  
+
+						      <div id="152" class="header closed" onclick="toggle('c152',this)">
+    <a href="topic_00000000000000CE_overloads--.html" target="vbdocright">Parse_Lines_by_Group Method</a>
+    </div>
+    <div id="c152" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_00000000000000CF.html" target="vbdocright">Parse_Lines_by_Group(this FileInfo, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_00000000000000CE.html" target="vbdocright">Parse_Lines_by_Group(this FileInfo, int) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_00000000000000D1.html" target="vbdocright">woExtension Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="153" class="header closed" onclick="toggle('c153',this)">
+    <a href="topic_0000000000000015.html" target="vbdocright">Szunyi.IO.Controls Namespace</a>
+    </div>
+    <div id="c153" class="item" style="display:none">
+		
+
+						    <div id="154" class="header closed" onclick="toggle('c154',this)">
+    <a href="topic_000000000000001B.html" target="vbdocright">CheckBox Class</a>
+    </div>
+    <div id="c154" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="155" class="header closed" onclick="toggle('c155',this)">
+    <a href="topic_000000000000001B_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c155" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000001C.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="156" class="header closed" onclick="toggle('c156',this)">
+    <a href="topic_0000000000000043.html" target="vbdocright">Get_Double Class</a>
+    </div>
+    <div id="c156" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="157" class="header closed" onclick="toggle('c157',this)">
+    <a href="topic_0000000000000046_overloads--.html" target="vbdocright">Get_Double Constructor</a>
+    </div>
+    <div id="c157" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000046.html" target="vbdocright">Get_Double(string, double, double, double) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000047.html" target="vbdocright">Get_Double(Input_Description) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="158" class="header closed" onclick="toggle('c158',this)">
+    <a href="topic_0000000000000043_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c158" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000045.html" target="vbdocright">i_P Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="159" class="header closed" onclick="toggle('c159',this)">
+    <a href="topic_0000000000000043_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c159" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000044.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="160" class="header closed" onclick="toggle('c160',this)">
+    <a href="topic_0000000000000048.html" target="vbdocright">Get_Integer Class</a>
+    </div>
+    <div id="c160" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="161" class="header closed" onclick="toggle('c161',this)">
+    <a href="topic_000000000000004B_overloads--.html" target="vbdocright">Get_Integer Constructor</a>
+    </div>
+    <div id="c161" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000004B.html" target="vbdocright">Get_Integer(string, int, double, double) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000004C.html" target="vbdocright">Get_Integer(Input_Description) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="162" class="header closed" onclick="toggle('c162',this)">
+    <a href="topic_0000000000000048_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c162" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000004A.html" target="vbdocright">i_P Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="163" class="header closed" onclick="toggle('c163',this)">
+    <a href="topic_0000000000000048_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c163" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000049.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="164" class="header closed" onclick="toggle('c164',this)">
+    <a href="topic_000000000000004D.html" target="vbdocright">OK_Cancel Class</a>
+    </div>
+    <div id="c164" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000004F.html" target="vbdocright">OK_Cancel Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="165" class="header closed" onclick="toggle('c165',this)">
+    <a href="topic_000000000000004D_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c165" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000004E.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="166" class="header closed" onclick="toggle('c166',this)">
+    <a href="topic_0000000000000050.html" target="vbdocright">Set_Console_Properties Class</a>
+    </div>
+    <div id="c166" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000054.html" target="vbdocright">Set_Console_Properties Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="167" class="header closed" onclick="toggle('c167',this)">
+    <a href="topic_0000000000000050_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c167" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000052.html" target="vbdocright">Input_Descriptions Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000053.html" target="vbdocright">obj Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="168" class="header closed" onclick="toggle('c168',this)">
+    <a href="topic_0000000000000050_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c168" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000051.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="169" class="header closed" onclick="toggle('c169',this)">
+    <a href="topic_0000000000000016.html" target="vbdocright">cb Class</a>
+    </div>
+    <div id="c169" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_000000000000001A.html" target="vbdocright">cb Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="170" class="header closed" onclick="toggle('c170',this)">
+    <a href="topic_0000000000000016_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c170" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000018.html" target="vbdocright">I_P Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000019.html" target="vbdocright">SelectedValue Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="171" class="header closed" onclick="toggle('c171',this)">
+    <a href="topic_0000000000000016_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c171" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000017.html" target="vbdocright">Dispose Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="172" class="header closed" onclick="toggle('c172',this)">
+    <a href="topic_0000000000000120.html" target="vbdocright">Szunyi.IO.Import Namespace</a>
+    </div>
+    <div id="c172" class="item" style="display:none">
+		
+
+						    <div id="173" class="header closed" onclick="toggle('c173',this)">
+    <a href="topic_0000000000000125.html" target="vbdocright">SequenceIDs Class</a>
+    </div>
+    <div id="c173" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="174" class="header closed" onclick="toggle('c174',this)">
+    <a href="topic_0000000000000125_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c174" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_0000000000000126.html" target="vbdocright">All_Full Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000127.html" target="vbdocright">All_Short Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000128.html" target="vbdocright">Distinct_Full Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000129.html" target="vbdocright">Distinct_Short Method</a></div>
+  
+
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="175" class="header closed" onclick="toggle('c175',this)">
+    <a href="topic_0000000000000121.html" target="vbdocright">Sequences Class</a>
+    </div>
+    <div id="c175" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="176" class="header closed" onclick="toggle('c176',this)">
+    <a href="topic_0000000000000121_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c176" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						      <div id="177" class="header closed" onclick="toggle('c177',this)">
+    <a href="topic_0000000000000122_overloads--.html" target="vbdocright">Parse Method</a>
+    </div>
+    <div id="c177" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000124.html" target="vbdocright">Parse() Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000123.html" target="vbdocright">Parse(FileInfo) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000122.html" target="vbdocright">Parse(IEnumerable&lt;FileInfo&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="178" class="header closed" onclick="toggle('c178',this)">
+    <a href="topic_000000000000012A.html" target="vbdocright">Text Class</a>
+    </div>
+    <div id="c178" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="179" class="header closed" onclick="toggle('c179',this)">
+    <a href="topic_000000000000012A_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c179" class="item" style="display:none">
+		
+						
+						
+						  
+    <div class="leaf"><a href="topic_000000000000012B.html" target="vbdocright">First Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000012C.html" target="vbdocright">Full Method</a></div>
+  
+
+						
+						      <div id="180" class="header closed" onclick="toggle('c180',this)">
+    <a href="topic_000000000000012E_overloads--.html" target="vbdocright">GetHeader Method</a>
+    </div>
+    <div id="c180" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_000000000000012E.html" target="vbdocright">GetHeader(FileInfo, int, List&lt;String&gt;) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_000000000000012F.html" target="vbdocright">GetHeader(FileInfo, int, List&lt;String&gt;, List&lt;Int32&gt;) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000133.html" target="vbdocright">Ignore_Before_Contains_Group_By_Not_Start Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000132.html" target="vbdocright">Ignore_Before_Contains_Group_By_Start Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_000000000000012D.html" target="vbdocright">Parse Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000130.html" target="vbdocright">ParseByDelimiter Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000131.html" target="vbdocright">ParseFIrstLinesStartWiths Method</a></div>
+  
+
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000134.html" target="vbdocright">cIgnore_Before_Contains_Group_By_Not_Start Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+       <div id="181" class="header closed" onclick="toggle('c181',this)">
+    <a href="topic_0000000000000055.html" target="vbdocright">Szunyi.IO.Outer_Programs Namespace</a>
+    </div>
+    <div id="c181" class="item" style="display:none">
+		
+
+						    <div id="182" class="header closed" onclick="toggle('c182',this)">
+    <a href="topic_0000000000000058.html" target="vbdocright">Input_Description Class</a>
+    </div>
+    <div id="c182" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="183" class="header closed" onclick="toggle('c183',this)">
+    <a href="topic_0000000000000064_overloads--.html" target="vbdocright">Input_Description Constructor</a>
+    </div>
+    <div id="c183" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="topic_0000000000000066.html" target="vbdocright">Input_Description(string, Input_Description_Type, string, double, double, double, double, double, List&lt;String&gt;, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000065.html" target="vbdocright">Input_Description(string, Input_Description_Type, string, double, double, double, double, double, string, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="topic_0000000000000064.html" target="vbdocright">Input_Description(Input_Description_Type) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="184" class="header closed" onclick="toggle('c184',this)">
+    <a href="topic_0000000000000058_props--.html" target="vbdocright">Properties</a>
+    </div>
+    <div id="c184" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="topic_000000000000005F.html" target="vbdocright">Default_Max_Value Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005E.html" target="vbdocright">Default_Min_Value Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000062.html" target="vbdocright">Default_Value Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005B.html" target="vbdocright">Description Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000063.html" target="vbdocright">File_Flag Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000059.html" target="vbdocright">Flag Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005D.html" target="vbdocright">MaxValue Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005C.html" target="vbdocright">MinValue Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000061.html" target="vbdocright">Selected_Value Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_000000000000005A.html" target="vbdocright">Type Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="topic_0000000000000060.html" target="vbdocright">Values Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="185" class="header closed" onclick="toggle('c185',this)">
+    <a href="topic_0000000000000058_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c185" class="item" style="display:none">
+		
+						
+						
+						
+						
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="186" class="header closed" onclick="toggle('c186',this)">
+    <a href="topic_0000000000000056.html" target="vbdocright">Settings_For_Console Class</a>
+    </div>
+    <div id="c186" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="187" class="header closed" onclick="toggle('c187',this)">
+    <a href="topic_0000000000000056_methods--.html" target="vbdocright">Methods</a>
+    </div>
+    <div id="c187" class="item" style="display:none">
+		
+						
+						
+						
+						
+						  
+    <div class="leaf"><a href="topic_0000000000000057.html" target="vbdocright">Get_Console_Command Method</a></div>
+  
+
+						
+						
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="topic_0000000000000067.html" target="vbdocright">Input_Description_Type Enumeration</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>

@@ -1,0 +1,4602 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Szunyi.IO" Title="SOLUTION-WIDE PROPERTIES Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.SequenceIDs.All_Full" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000126.html" LinkGroup="Szunyi.IO">All_Full Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.SequenceIDs.All_Short" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000127.html" LinkGroup="Szunyi.IO">All_Short Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.All_TAB_Like" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E2.html" LinkGroup="Szunyi.IO">All_TAB_Like Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.PredicateBuilder.And(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001FA.html" LinkGroup="Szunyi.IO">And(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_Before_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BB_overloads--.html" LinkGroup="Szunyi.IO">Append_Before_Extension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_Before_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BC_overloads--.html" LinkGroup="Szunyi.IO">Append_Before_Extension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_Before_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B9_overloads--.html" LinkGroup="Szunyi.IO">Append_Before_Extension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_Before_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BA_overloads--.html" LinkGroup="Szunyi.IO">Append_Before_Extension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_First" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BD_overloads--.html" LinkGroup="Szunyi.IO">Append_First Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Append_First" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BE_overloads--.html" LinkGroup="Szunyi.IO">Append_First Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.BAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E8.html" LinkGroup="Szunyi.IO">BAM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.BAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014A.html" LinkGroup="Szunyi.IO">BAM Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.BED" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009D_overloads--.html" LinkGroup="Szunyi.IO">BED Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.BED" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009C_overloads--.html" LinkGroup="Szunyi.IO">BED Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.BED" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DE.html" LinkGroup="Szunyi.IO">BED Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.BED" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014C.html" LinkGroup="Szunyi.IO">BED Method {Szunyi.IO.Pick_Up}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FF.html" LinkGroup="Szunyi.IO">Blast Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.BlastAll" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FE.html" LinkGroup="Szunyi.IO">BlastAll Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_Flat_Query_Anchored_wIdentities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F7.html" LinkGroup="Szunyi.IO">Blast_Flat_Query_Anchored_wIdentities Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_Flat_Query_Anchored_woIdentities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F8.html" LinkGroup="Szunyi.IO">Blast_Flat_Query_Anchored_woIdentities Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_PairWise" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F4.html" LinkGroup="Szunyi.IO">Blast_PairWise Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_Query_Anchored_wIdentities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F5.html" LinkGroup="Szunyi.IO">Blast_Query_Anchored_wIdentities Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_Query_Anchored_woIdentities" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F6.html" LinkGroup="Szunyi.IO">Blast_Query_Anchored_woIdentities Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_XML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F9.html" LinkGroup="Szunyi.IO">Blast_XML Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_tabular" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FA.html" LinkGroup="Szunyi.IO">Blast_tabular Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Blast_tabular_wComment" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FB.html" LinkGroup="Szunyi.IO">Blast_tabular_wComment Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.Call" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003C.html" LinkGroup="Szunyi.IO">Call Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.Call2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003D.html" LinkGroup="Szunyi.IO">Call2 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.CallAs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003E.html" LinkGroup="Szunyi.IO">CallAs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.CallAs2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003F.html" LinkGroup="Szunyi.IO">CallAs2 Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.ChangeExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B7_overloads--.html" LinkGroup="Szunyi.IO">ChangeExtension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.ChangeExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B8_overloads--.html" LinkGroup="Szunyi.IO">ChangeExtension Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Change_Directory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D2.html" LinkGroup="Szunyi.IO">Change_Directory Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.CheckBox" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001B.html" LinkGroup="Szunyi.IO">CheckBox Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000008_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000D_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000C_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000009_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000A_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000B_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000000.html" LinkGroup="Szunyi.IO">CheckBoxForStringsFull Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox.Checked" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000010.html" LinkGroup="Szunyi.IO">Checked Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.Clear_Selections" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000E.html" LinkGroup="Szunyi.IO">Clear_Selections Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.CloneStrings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BC.html" LinkGroup="Szunyi.IO">CloneStrings Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014F.html" LinkGroup="Szunyi.IO">Common_Classes Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToMany.Compare" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E9.html" LinkGroup="Szunyi.IO">Compare Method {Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToMany}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToOneBySecond.Compare" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E1.html" LinkGroup="Szunyi.IO">Compare Method {Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToOneBySecond}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossrefOneToOneByFirst.Compare" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DF.html" LinkGroup="Szunyi.IO">Compare Method {Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossrefOneToOneByFirst}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToMany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E8.html" LinkGroup="Szunyi.IO">ComparerOfCrossRefOneToMany Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossRefOneToOneBySecond" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E0.html" LinkGroup="Szunyi.IO">ComparerOfCrossRefOneToOneBySecond Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.ComparerOfCrossrefOneToOneByFirst" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DE.html" LinkGroup="Szunyi.IO">ComparerOfCrossrefOneToOneByFirst Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Convert_CSV_To_TDT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C1_overloads--.html" LinkGroup="Szunyi.IO">Convert_CSV_To_TDT Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Convert_CSV_To_TDT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C2_overloads--.html" LinkGroup="Szunyi.IO">Convert_CSV_To_TDT Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Convert_TDT_to_CSV" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C3_overloads--.html" LinkGroup="Szunyi.IO">Convert_TDT_to_CSV Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Convert_TDT_to_CSV" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C4_overloads--.html" LinkGroup="Szunyi.IO">Convert_TDT_to_CSV Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.SelectLambdaBuilder(Of T).CreateNewStatement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F5.html" LinkGroup="Szunyi.IO">CreateNewStatement Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CA.html" LinkGroup="Szunyi.IO">CrossRefBuilders Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E5_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E7_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E6_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E2.html" LinkGroup="Szunyi.IO">CrossRefOneToMany Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToOne" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DA.html" LinkGroup="Szunyi.IO">CrossRefOneToOne Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToOne.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DD.html" LinkGroup="Szunyi.IO">CrossRefOneToOne Constructor {Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToOne}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Csv" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000143.html" LinkGroup="Szunyi.IO">Csv Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.Current_Position" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000188_overloads--.html" LinkGroup="Szunyi.IO">Current_Position Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.Current_Position" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000184_overloads--.html" LinkGroup="Szunyi.IO">Current_Position Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.D_Click" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000078.html" LinkGroup="Szunyi.IO">D_Click Event</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Default_Max_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005F.html" LinkGroup="Szunyi.IO">Default_Max_Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Default_Min_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005E.html" LinkGroup="Szunyi.IO">Default_Min_Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Default_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000062.html" LinkGroup="Szunyi.IO">Default_Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem.Delete" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011B.html" LinkGroup="Szunyi.IO">Delete Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005B.html" LinkGroup="Szunyi.IO">Description Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.XML.Deserialize(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008A_overloads--.html" LinkGroup="Szunyi.IO">Deserialize(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.XML.Deserialize(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000089_overloads--.html" LinkGroup="Szunyi.IO">Deserialize(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Directories" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013B.html" LinkGroup="Szunyi.IO">Directories Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Directory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013A.html" LinkGroup="Szunyi.IO">Directory Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.DisplayMember" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000076.html" LinkGroup="Szunyi.IO">DisplayMember Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AE_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A8_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000033_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AD_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A7_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000032_overloads--.html" LinkGroup="Szunyi.IO">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000001.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.CheckBoxForStringsFull}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.CheckBox.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001C.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.CheckBox}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Double.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000044.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.Get_Double}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Integer.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000049.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.Get_Integer}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.OK_Cancel.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004E.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.OK_Cancel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Set_Console_Properties.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000051.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.Set_Console_Properties}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.cb.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000017.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Controls.cb}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000028.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.Filter}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007D.html" LinkGroup="Szunyi.IO">Dispose Method {Szunyi.IO.tblb}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.SequenceIDs.Distinct_Full" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000128.html" LinkGroup="Szunyi.IO">Distinct_Full Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.SequenceIDs.Distinct_Short" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000129.html" LinkGroup="Szunyi.IO">Distinct_Short Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Double_Extensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000017D.html" LinkGroup="Szunyi.IO">Double_Extensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting.EnumName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000026.html" LinkGroup="Szunyi.IO">EnumName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting.EnumValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000024.html" LinkGroup="Szunyi.IO">EnumValue Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enum_Manipulator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001FB.html" LinkGroup="Szunyi.IO">Enum_Manipulator Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enums" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000015D.html" LinkGroup="Szunyi.IO">Enums Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008B.html" LinkGroup="Szunyi.IO">Export Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Export_Sam" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A2.html" LinkGroup="Szunyi.IO">Export_Sam Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000189.html" LinkGroup="Szunyi.IO">Extensions Class {Szunyi.Common}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AF.html" LinkGroup="Szunyi.IO">Extensions Class {Szunyi.IO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.PredicateBuilder.False(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F8.html" LinkGroup="Szunyi.IO">False(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Fast5" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E3.html" LinkGroup="Szunyi.IO">Fast5 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Fast5" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000141.html" LinkGroup="Szunyi.IO">Fast5 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.FastQ" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000EE.html" LinkGroup="Szunyi.IO">FastQ Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000091_overloads--.html" LinkGroup="Szunyi.IO">Fasta Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000093_overloads--.html" LinkGroup="Szunyi.IO">Fasta Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000090_overloads--.html" LinkGroup="Szunyi.IO">Fasta Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000092_overloads--.html" LinkGroup="Szunyi.IO">Fasta Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E4.html" LinkGroup="Szunyi.IO">Fasta Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013C.html" LinkGroup="Szunyi.IO">Fasta Method {Szunyi.IO.Pick_Up}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A9.html" LinkGroup="Szunyi.IO">Fasta_Exporter Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AA.html" LinkGroup="Szunyi.IO">Fasta_Exporter Constructor {Szunyi.IO.Export.Fasta_Exporter}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Fasta_FastQ" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000EC.html" LinkGroup="Szunyi.IO">Fasta_FastQ Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Fasta_FastQ_gz" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000ED.html" LinkGroup="Szunyi.IO">Fasta_FastQ_gz Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Fasta_Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013D.html" LinkGroup="Szunyi.IO">Fasta_Fastq Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000095_overloads--.html" LinkGroup="Szunyi.IO">Fastq Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000097_overloads--.html" LinkGroup="Szunyi.IO">Fastq Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000094_overloads--.html" LinkGroup="Szunyi.IO">Fastq Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000096_overloads--.html" LinkGroup="Szunyi.IO">Fastq Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013E.html" LinkGroup="Szunyi.IO">Fastq Method {Szunyi.IO.Pick_Up}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.File" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000139.html" LinkGroup="Szunyi.IO">File Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011A.html" LinkGroup="Szunyi.IO">FileSystem Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000100.html" LinkGroup="Szunyi.IO">File_Extension Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D4.html" LinkGroup="Szunyi.IO">File_Extensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.File_Flag" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000063.html" LinkGroup="Szunyi.IO">File_Flag Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.File_To_Save" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008D_overloads--.html" LinkGroup="Szunyi.IO">File_To_Save Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.File_To_Save" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008C_overloads--.html" LinkGroup="Szunyi.IO">File_To_Save Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Files" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000138.html" LinkGroup="Szunyi.IO">Files Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000020_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000021_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Filter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BD.html" LinkGroup="Szunyi.IO">Filter Class {Szunyi.Common}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001D.html" LinkGroup="Szunyi.IO">Filter Class {Szunyi.IO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enums.Filter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000171.html" LinkGroup="Szunyi.IO">Filter Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Filter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FC.html" LinkGroup="Szunyi.IO">Filter Field {Szunyi.IO.File_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.Filter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000104.html" LinkGroup="Szunyi.IO">Filter Field {Szunyi.IO.File_Extension}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Filter_ByExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CA_overloads--.html" LinkGroup="Szunyi.IO">Filter_ByExtension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Filter_ByExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C9_overloads--.html" LinkGroup="Szunyi.IO">Filter_ByExtension Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Filter_ByPartialID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C8_overloads--.html" LinkGroup="Szunyi.IO">Filter_ByPartialID Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Filter_ByPartialID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C7_overloads--.html" LinkGroup="Szunyi.IO">Filter_ByPartialID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000022.html" LinkGroup="Szunyi.IO">Filter_Setting Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000027.html" LinkGroup="Szunyi.IO">Filter_Setting Constructor {Szunyi.IO.Filter_Setting}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.First" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012B.html" LinkGroup="Szunyi.IO">First Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToOne.First" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DB.html" LinkGroup="Szunyi.IO">First Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.FirstPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A4_overloads--.html" LinkGroup="Szunyi.IO">FirstPart Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.FirstPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A6_overloads--.html" LinkGroup="Szunyi.IO">FirstPart Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.FirstParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A3_overloads--.html" LinkGroup="Szunyi.IO">FirstParts Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.FirstParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A5_overloads--.html" LinkGroup="Szunyi.IO">FirstParts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Flag" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000059.html" LinkGroup="Szunyi.IO">Flag Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.FlipOneToOne" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D8.html" LinkGroup="Szunyi.IO">FlipOneToOne Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.FolderName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002D.html" LinkGroup="Szunyi.IO">FolderName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.FolderNames" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002E.html" LinkGroup="Szunyi.IO">FolderNames Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000029.html" LinkGroup="Szunyi.IO">FolderSelectDialog Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002A.html" LinkGroup="Szunyi.IO">FolderSelectDialog Constructor {Szunyi.IO.FolderSelectDialog}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000013_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000014_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000000F.html" LinkGroup="Szunyi.IO">ForCheckBox Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.Full" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012C.html" LinkGroup="Szunyi.IO">Full Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Linux" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B0_overloads--.html" LinkGroup="Szunyi.IO">FullName_Linux Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Linux" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B1_overloads--.html" LinkGroup="Szunyi.IO">FullName_Linux Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Linux" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B2_overloads--.html" LinkGroup="Szunyi.IO">FullName_Linux Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Python" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B3_overloads--.html" LinkGroup="Szunyi.IO">FullName_Python Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Python" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B4_overloads--.html" LinkGroup="Szunyi.IO">FullName_Python Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Windows_cmd" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B5_overloads--.html" LinkGroup="Szunyi.IO">FullName_Windows_cmd Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.FullName_Windows_cmd" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000B6_overloads--.html" LinkGroup="Szunyi.IO">FullName_Windows_cmd Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000099_overloads--.html" LinkGroup="Szunyi.IO">GenBank Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009B_overloads--.html" LinkGroup="Szunyi.IO">GenBank Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000098_overloads--.html" LinkGroup="Szunyi.IO">GenBank Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009A_overloads--.html" LinkGroup="Szunyi.IO">GenBank Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E5.html" LinkGroup="Szunyi.IO">GenBank Field {Szunyi.IO.File_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000102.html" LinkGroup="Szunyi.IO">GenBank Field {Szunyi.IO.File_Extension}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.GenBank" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000013F.html" LinkGroup="Szunyi.IO">GenBank Method {Szunyi.IO.Pick_Up}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.Get" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000040.html" LinkGroup="Szunyi.IO">Get Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.GetAs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000041.html" LinkGroup="Szunyi.IO">GetAs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Double_Extensions.GetDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000017F.html" LinkGroup="Szunyi.IO">GetDouble Method {Szunyi.Common.Double_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox.GetDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C3.html" LinkGroup="Szunyi.IO">GetDouble Method {Szunyi.Common.MyInputBox}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox.GetDoubles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C5.html" LinkGroup="Szunyi.IO">GetDoubles Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.GetEnum" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000042.html" LinkGroup="Szunyi.IO">GetEnum Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.GetFiles_All_Recursive" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CB_overloads--.html" LinkGroup="Szunyi.IO">GetFiles_All_Recursive Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.GetFiles_All_Recursive" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CC_overloads--.html" LinkGroup="Szunyi.IO">GetFiles_All_Recursive Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.GetHeader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012E_overloads--.html" LinkGroup="Szunyi.IO">GetHeader Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.GetHeader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012F_overloads--.html" LinkGroup="Szunyi.IO">GetHeader Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.GetHeader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D3.html" LinkGroup="Szunyi.IO">GetHeader Method {Szunyi.IO.Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.partialIDs.GetID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000158.html" LinkGroup="Szunyi.IO">GetID Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox.GetInteger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C6.html" LinkGroup="Szunyi.IO">GetInteger Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox.GetIntegers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C7.html" LinkGroup="Szunyi.IO">GetIntegers Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToMany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D3.html" LinkGroup="Szunyi.IO">GetOneToMany Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToManyByFirst" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CF.html" LinkGroup="Szunyi.IO">GetOneToManyByFirst Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToManyBySecond" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D0.html" LinkGroup="Szunyi.IO">GetOneToManyBySecond Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToManyFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D4.html" LinkGroup="Szunyi.IO">GetOneToManyFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToOneFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D5_overloads--.html" LinkGroup="Szunyi.IO">GetOneToOneFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetOneToOneFromFile" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D6_overloads--.html" LinkGroup="Szunyi.IO">GetOneToOneFromFile Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox.GetString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C4.html" LinkGroup="Szunyi.IO">GetString Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000190_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018F_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000191_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018C_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018D_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018B_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018A_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.GetText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000018E_overloads--.html" LinkGroup="Szunyi.IO">GetText Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetValues" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D2.html" LinkGroup="Szunyi.IO">GetValues Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_All_Enum_Names(Of t)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001EC.html" LinkGroup="Szunyi.IO">Get_All_Enum_Names(Of t) Method {Szunyi.Common.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_All_Enum_Names(Of t)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000080.html" LinkGroup="Szunyi.IO">Get_All_Enum_Names(Of t) Method {Szunyi.IO.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_All_Enum_Names_Values(Of t)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001EB.html" LinkGroup="Szunyi.IO">Get_All_Enum_Names_Values(Of t) Method {Szunyi.Common.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_All_Enum_Names_Values(Of t)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007F.html" LinkGroup="Szunyi.IO">Get_All_Enum_Names_Values(Of t) Method {Szunyi.IO.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Settings_For_Console.Get_Console_Command" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000057.html" LinkGroup="Szunyi.IO">Get_Console_Command Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.Get_Distinct_Seconds" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CE.html" LinkGroup="Szunyi.IO">Get_Distinct_Seconds Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Double.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000047_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Double.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000046_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Double" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000043.html" LinkGroup="Szunyi.IO">Get_Double Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enum_Name(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001ED.html" LinkGroup="Szunyi.IO">Get_Enum_Name(Of T) Method {Szunyi.Common.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_Enum_Name(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000081.html" LinkGroup="Szunyi.IO">Get_Enum_Name(Of T) Method {Szunyi.IO.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enum_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F2.html" LinkGroup="Szunyi.IO">Get_Enum_Value Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_Enum_Value(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000083_overloads--.html" LinkGroup="Szunyi.IO">Get_Enum_Value(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enum_Value(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001EF_overloads--.html" LinkGroup="Szunyi.IO">Get_Enum_Value(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enum_Value(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001EE_overloads--.html" LinkGroup="Szunyi.IO">Get_Enum_Value(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_Enum_Value(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000082_overloads--.html" LinkGroup="Szunyi.IO">Get_Enum_Value(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enum_Valueit(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F1.html" LinkGroup="Szunyi.IO">Get_Enum_Valueit(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Enums(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F0.html" LinkGroup="Szunyi.IO">Get_Enums(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Integer.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004C_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Parameters.Get_Integer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000006E_overloads--.html" LinkGroup="Szunyi.IO">Get_Integer Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Parameters.Get_Integer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000006F_overloads--.html" LinkGroup="Szunyi.IO">Get_Integer Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Integer.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004B_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Parameters.Get_Integer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000070_overloads--.html" LinkGroup="Szunyi.IO">Get_Integer Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Parameters.Get_Integer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000071_overloads--.html" LinkGroup="Szunyi.IO">Get_Integer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Integer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000048.html" LinkGroup="Szunyi.IO">Get_Integer Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers.Get_Property_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F3.html" LinkGroup="Szunyi.IO">Get_Property_Value Method {Szunyi.Common.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Get_Property_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000084.html" LinkGroup="Szunyi.IO">Get_Property_Value Method {Szunyi.IO.Util_Helpers}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.GetwShortLocusTag" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D9.html" LinkGroup="Szunyi.IO">GetwShortLocusTag Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Gff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009F_overloads--.html" LinkGroup="Szunyi.IO">Gff Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Gff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A1_overloads--.html" LinkGroup="Szunyi.IO">Gff Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Gff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000009E_overloads--.html" LinkGroup="Szunyi.IO">Gff Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Gff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A0_overloads--.html" LinkGroup="Szunyi.IO">Gff Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Gff" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000142.html" LinkGroup="Szunyi.IO">Gff Method {Szunyi.IO.Pick_Up}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.GroupBy_Extensione" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C6.html" LinkGroup="Szunyi.IO">GroupBy_Extensione Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.GroupBy_FIleName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C5.html" LinkGroup="Szunyi.IO">GroupBy_FIleName Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Gzip" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000EB.html" LinkGroup="Szunyi.IO">Gzip Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.HDF5" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000EA.html" LinkGroup="Szunyi.IO">HDF5 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.WindowWrapper.Handle" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000036.html" LinkGroup="Szunyi.IO">Handle Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.PartialID.ID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000015B.html" LinkGroup="Szunyi.IO">ID Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.cb.I_P" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000018.html" LinkGroup="Szunyi.IO">I_P Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.Ignore_Before_Contains_Group_By_Not_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000133.html" LinkGroup="Szunyi.IO">Ignore_Before_Contains_Group_By_Not_Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.Ignore_Before_Contains_Group_By_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000132.html" LinkGroup="Szunyi.IO">Ignore_Before_Contains_Group_By_Start Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000194_overloads--.html" LinkGroup="Szunyi.IO">Index Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000193_overloads--.html" LinkGroup="Szunyi.IO">Index Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.IndexChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000077.html" LinkGroup="Szunyi.IO">IndexChanged Event</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.InitialDirectory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002B.html" LinkGroup="Szunyi.IO">InitialDirectory Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000064_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000066_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000065_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000058.html" LinkGroup="Szunyi.IO">Input_Description Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description_Type" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000067.html" LinkGroup="Szunyi.IO">Input_Description_Type Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Set_Console_Properties.Input_Descriptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000052.html" LinkGroup="Szunyi.IO">Input_Descriptions Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.InsertAfter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B0.html" LinkGroup="Szunyi.IO">InsertAfter Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.InsertBefore" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AF.html" LinkGroup="Szunyi.IO">InsertBefore Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.InsertBeforeAfter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B1_overloads--.html" LinkGroup="Szunyi.IO">InsertBeforeAfter Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.InsertBeforeAfter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B2_overloads--.html" LinkGroup="Szunyi.IO">InsertBeforeAfter Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.IsComplementer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000187_overloads--.html" LinkGroup="Szunyi.IO">IsComplementer Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.IsComplementer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000183_overloads--.html" LinkGroup="Szunyi.IO">IsComplementer Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.KAnalyse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000FD.html" LinkGroup="Szunyi.IO">KAnalyse Field {Szunyi.IO.File_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.KAnalyse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000101.html" LinkGroup="Szunyi.IO">KAnalyse Field {Szunyi.IO.File_Extension}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.KeyObject.Key" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000151.html" LinkGroup="Szunyi.IO">Key Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.KeyObject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000150.html" LinkGroup="Szunyi.IO">KeyObject Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.KeyObject.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000153.html" LinkGroup="Szunyi.IO">KeyObject Constructor {Szunyi.Common.Common_Classes.KeyObject}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.LastPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A8.html" LinkGroup="Szunyi.IO">LastPart Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.LastParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A7.html" LinkGroup="Szunyi.IO">LastParts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Loc_SAM_BAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D9.html" LinkGroup="Szunyi.IO">Loc_SAM_BAM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Location" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DA.html" LinkGroup="Szunyi.IO">Location Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000180.html" LinkGroup="Szunyi.IO">Location_Extension Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enums.Locations_By" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000164.html" LinkGroup="Szunyi.IO">Locations_By Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E0.html" LinkGroup="Szunyi.IO">Log Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000144.html" LinkGroup="Szunyi.IO">Log Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany.Many" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E4.html" LinkGroup="Szunyi.IO">Many Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Matches" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BB.html" LinkGroup="Szunyi.IO">Matches Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.MaxValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005D.html" LinkGroup="Szunyi.IO">MaxValue Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.Max_Nof_SelectedItems" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000006.html" LinkGroup="Szunyi.IO">Max_Nof_SelectedItems Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Merge" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000C0_overloads--.html" LinkGroup="Szunyi.IO">Merge Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Merge" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000BF_overloads--.html" LinkGroup="Szunyi.IO">Merge Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem.Merge_Files" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011F.html" LinkGroup="Szunyi.IO">Merge_Files Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.MinValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005C.html" LinkGroup="Szunyi.IO">MinValue Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem.Move" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011D_overloads--.html" LinkGroup="Szunyi.IO">Move Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem.Move" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011E_overloads--.html" LinkGroup="Szunyi.IO">Move Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FileSystem.Move" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000011C_overloads--.html" LinkGroup="Szunyi.IO">Move Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Multiply" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BA.html" LinkGroup="Szunyi.IO">Multiply Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.MyGetType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003A.html" LinkGroup="Szunyi.IO">MyGetType Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.MyInputBox" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C2.html" LinkGroup="Szunyi.IO">MyInputBox Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter.MyT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001F.html" LinkGroup="Szunyi.IO">MyT Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000023.html" LinkGroup="Szunyi.IO">Name Property {Szunyi.IO.Filter_Setting}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox.Name" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000011.html" LinkGroup="Szunyi.IO">Name Property {Szunyi.IO.ForCheckBox}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000003B_overloads--.html" LinkGroup="Szunyi.IO">New Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.NotFirstPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AE.html" LinkGroup="Szunyi.IO">NotFirstPart Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.NotFirstParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AD.html" LinkGroup="Szunyi.IO">NotFirstParts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.NotLastPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AC.html" LinkGroup="Szunyi.IO">NotLastPart Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.NotLastParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AB.html" LinkGroup="Szunyi.IO">NotLastParts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.OK_Cancel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004D.html" LinkGroup="Szunyi.IO">OK_Cancel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.OK_Cancel.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004F.html" LinkGroup="Szunyi.IO">OK_Cancel Constructor {Szunyi.IO.Controls.OK_Cancel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.KeyObject.Obj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000152.html" LinkGroup="Szunyi.IO">Obj Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToMany.One" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001E3.html" LinkGroup="Szunyi.IO">One Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.OneToManyComparer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CD.html" LinkGroup="Szunyi.IO">OneToManyComparer Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.OneToOneByFirstComparer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CB.html" LinkGroup="Szunyi.IO">OneToOneByFirstComparer Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.OneToOneBySecondComparer" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001CC.html" LinkGroup="Szunyi.IO">OneToOneBySecondComparer Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.PredicateBuilder.Or(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F9.html" LinkGroup="Szunyi.IO">Or(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.Original" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000073.html" LinkGroup="Szunyi.IO">Original Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.PAS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000186_overloads--.html" LinkGroup="Szunyi.IO">PAS Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.PAS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000182_overloads--.html" LinkGroup="Szunyi.IO">PAS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Parameters" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000006D.html" LinkGroup="Szunyi.IO">Parameters Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Sequences.Parse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000124_overloads--.html" LinkGroup="Szunyi.IO">Parse Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Sequences.Parse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000123_overloads--.html" LinkGroup="Szunyi.IO">Parse Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Sequences.Parse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000122_overloads--.html" LinkGroup="Szunyi.IO">Parse Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Filter.Parse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BF.html" LinkGroup="Szunyi.IO">Parse Method {Szunyi.Common.Filter}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.Parse" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012D.html" LinkGroup="Szunyi.IO">Parse Method {Szunyi.IO.Import.Text}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.ParseByDelimiter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000130.html" LinkGroup="Szunyi.IO">ParseByDelimiter Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.ParseFIrstLinesStartWiths" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000131.html" LinkGroup="Szunyi.IO">ParseFIrstLinesStartWiths Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.ParseToArray" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CD.html" LinkGroup="Szunyi.IO">ParseToArray Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Parse_Lines_By_Group_NotStartWith" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D0.html" LinkGroup="Szunyi.IO">Parse_Lines_By_Group_NotStartWith Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Parse_Lines_by_Group" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CE_overloads--.html" LinkGroup="Szunyi.IO">Parse_Lines_by_Group Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.Parse_Lines_by_Group" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000CF_overloads--.html" LinkGroup="Szunyi.IO">Parse_Lines_by_Group Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.PartialID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000159.html" LinkGroup="Szunyi.IO">PartialID Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.PartialID.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000015C.html" LinkGroup="Szunyi.IO">PartialID Constructor {Szunyi.Common.Common_Classes.PartialID}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Filter.Pass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001BE.html" LinkGroup="Szunyi.IO">Pass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.PhylogeneticXml" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F1.html" LinkGroup="Szunyi.IO">PhylogeneticXml Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000137.html" LinkGroup="Szunyi.IO">Pick_Up Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.PoreCHop" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D7.html" LinkGroup="Szunyi.IO">PoreCHop Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.PredicateBuilder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F6.html" LinkGroup="Szunyi.IO">PredicateBuilder Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000038_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000039_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Reflector" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000037.html" LinkGroup="Szunyi.IO">Reflector Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Remove" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019F_overloads--.html" LinkGroup="Szunyi.IO">Remove Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Remove" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A2_overloads--.html" LinkGroup="Szunyi.IO">Remove Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Remove" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A0_overloads--.html" LinkGroup="Szunyi.IO">Remove Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Remove" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A1_overloads--.html" LinkGroup="Szunyi.IO">Remove Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E7.html" LinkGroup="Szunyi.IO">SAM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.SAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000149.html" LinkGroup="Szunyi.IO">SAM Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SAM_BAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E9.html" LinkGroup="Szunyi.IO">SAM_BAM Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.SAM_BAM" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014B.html" LinkGroup="Szunyi.IO">SAM_BAM Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SAM_BAM_Fastq" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D8.html" LinkGroup="Szunyi.IO">SAM_BAM_Fastq Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SOLUTION-WIDE PROPERTIES Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001FC.html" LinkGroup="Szunyi.IO">SOLUTION-WIDE PROPERTIES Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.SaveOneToMany" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D1.html" LinkGroup="Szunyi.IO">SaveOneToMany Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefBuilders.SaveOneToOne" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001D7.html" LinkGroup="Szunyi.IO">SaveOneToOne Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enums.SearchType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000015E.html" LinkGroup="Szunyi.IO">SearchType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs.CrossRefOneToOne.Second" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001DC.html" LinkGroup="Szunyi.IO">Second Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.SelItem" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000075.html" LinkGroup="Szunyi.IO">SelItem Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.SelSeqs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000007.html" LinkGroup="Szunyi.IO">SelSeqs Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SelectFolder" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DF.html" LinkGroup="Szunyi.IO">SelectFolder Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.SelectLambdaBuilder(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F4.html" LinkGroup="Szunyi.IO">SelectLambdaBuilder(Of T) Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.Selected" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000074.html" LinkGroup="Szunyi.IO">Selected Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.SelectedFiles" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000004.html" LinkGroup="Szunyi.IO">SelectedFiles Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.SelectedIndexes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000003.html" LinkGroup="Szunyi.IO">SelectedIndexes Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.SelectedObj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000005.html" LinkGroup="Szunyi.IO">SelectedObj Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.CheckBoxForStringsFull.SelectedStrings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000002.html" LinkGroup="Szunyi.IO">SelectedStrings Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.cb.SelectedValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000019.html" LinkGroup="Szunyi.IO">SelectedValue Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Selected_Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000061.html" LinkGroup="Szunyi.IO">Selected_Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.Sequence" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000140.html" LinkGroup="Szunyi.IO">Sequence Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SequenceFileTypesToImport" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000EF.html" LinkGroup="Szunyi.IO">SequenceFileTypesToImport Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.SequenceIDs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000125.html" LinkGroup="Szunyi.IO">SequenceIDs Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Sequences" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000121.html" LinkGroup="Szunyi.IO">Sequences Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.XML.Serialize(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000087_overloads--.html" LinkGroup="Szunyi.IO">Serialize(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.XML.Serialize(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000088_overloads--.html" LinkGroup="Szunyi.IO">Serialize(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.SetDisplayMember" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007C.html" LinkGroup="Szunyi.IO">SetDisplayMember Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.SetIt" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007B.html" LinkGroup="Szunyi.IO">SetIt Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Set_Console_Properties" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000050.html" LinkGroup="Szunyi.IO">Set_Console_Properties Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Set_Console_Properties.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000054.html" LinkGroup="Szunyi.IO">Set_Console_Properties Constructor {Szunyi.IO.Controls.Set_Console_Properties}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers.Set_Filter_Settings(Of t)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000085.html" LinkGroup="Szunyi.IO">Set_Filter_Settings(Of t) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter.Setting" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001E.html" LinkGroup="Szunyi.IO">Setting Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Settings" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F0.html" LinkGroup="Szunyi.IO">Settings Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Settings_For_Console" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000056.html" LinkGroup="Szunyi.IO">Settings_For_Console Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.ShowDialog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002F_overloads--.html" LinkGroup="Szunyi.IO">ShowDialog Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.ShowDialog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000030_overloads--.html" LinkGroup="Szunyi.IO">ShowDialog Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.ShowDialog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000031_overloads--.html" LinkGroup="Szunyi.IO">ShowDialog Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.SignalP" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F2.html" LinkGroup="Szunyi.IO">SignalP Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.SplitToDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019B.html" LinkGroup="Szunyi.IO">SplitToDouble Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.SplitToInt16" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019C.html" LinkGroup="Szunyi.IO">SplitToInt16 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.SplitToInt64" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019E.html" LinkGroup="Szunyi.IO">SplitToInt64 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.SplitToInteger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019A.html" LinkGroup="Szunyi.IO">SplitToInteger Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.SplitToSingle" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000019D.html" LinkGroup="Szunyi.IO">SplitToSingle Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.String" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014E.html" LinkGroup="Szunyi.IO">String Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001FE.html" LinkGroup="Szunyi.IO">Szunyi.Common Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Other_Database.CrossRefs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001C9.html" LinkGroup="Szunyi.IO">Szunyi.Common.Other_Database.CrossRefs Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001FF.html" LinkGroup="Szunyi.IO">Szunyi.IO Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000015.html" LinkGroup="Szunyi.IO">Szunyi.IO.Controls Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000120.html" LinkGroup="Szunyi.IO">Szunyi.IO.Import Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000055.html" LinkGroup="Szunyi.IO">Szunyi.IO.Outer_Programs Namespace</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.TSS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000185_overloads--.html" LinkGroup="Szunyi.IO">TSS Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Location_Extension.TSS" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000181_overloads--.html" LinkGroup="Szunyi.IO">TSS Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.TabLike" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000146.html" LinkGroup="Szunyi.IO">TabLike Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.TabLikes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000145.html" LinkGroup="Szunyi.IO">TabLikes Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008F_overloads--.html" LinkGroup="Szunyi.IO">Text Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000008E_overloads--.html" LinkGroup="Szunyi.IO">Text Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000012A.html" LinkGroup="Szunyi.IO">Text Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Enums.TextMatch" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000016A.html" LinkGroup="Szunyi.IO">TextMatch Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A3.html" LinkGroup="Szunyi.IO">Text_Exporter Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A4.html" LinkGroup="Szunyi.IO">Text_Exporter Constructor {Szunyi.IO.Export.Text_Exporter}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.FolderSelectDialog.Title" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000002C.html" LinkGroup="Szunyi.IO">Title Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToDictionary" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000192.html" LinkGroup="Szunyi.IO">ToDictionary Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToDouble" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000196.html" LinkGroup="Szunyi.IO">ToDouble Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToInt16" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000197.html" LinkGroup="Szunyi.IO">ToInt16 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToInt64" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000199.html" LinkGroup="Szunyi.IO">ToInt64 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToInteger" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000195.html" LinkGroup="Szunyi.IO">ToInteger Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.ToSingle" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000198.html" LinkGroup="Szunyi.IO">ToSingle Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Double_Extensions.ToString_Decimal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000017E.html" LinkGroup="Szunyi.IO">ToString_Decimal Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Trim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B4_overloads--.html" LinkGroup="Szunyi.IO">Trim Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.Trim" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B3_overloads--.html" LinkGroup="Szunyi.IO">Trim Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.TrimEnd" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B8_overloads--.html" LinkGroup="Szunyi.IO">TrimEnd Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.TrimEnd" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B7_overloads--.html" LinkGroup="Szunyi.IO">TrimEnd Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.TrimStart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B6_overloads--.html" LinkGroup="Szunyi.IO">TrimStart Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.TrimStart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B5_overloads--.html" LinkGroup="Szunyi.IO">TrimStart Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.PredicateBuilder.True(Of T)" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001F7.html" LinkGroup="Szunyi.IO">True(Of T) Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Type" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000005A.html" LinkGroup="Szunyi.IO">Type Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Util_Helpers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001EA.html" LinkGroup="Szunyi.IO">Util_Helpers Class {Szunyi.Common}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Util_Helpers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007E.html" LinkGroup="Szunyi.IO">Util_Helpers Class {Szunyi.IO}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.VCF" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000014D.html" LinkGroup="Szunyi.IO">VCF Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Filter_Setting.Value" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000025.html" LinkGroup="Szunyi.IO">Value Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Outer_Programs.Input_Description.Values" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000060.html" LinkGroup="Szunyi.IO">Values Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.VanKrevelen" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000F3.html" LinkGroup="Szunyi.IO">VanKrevelen Field {Szunyi.IO.File_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.VanKrevelen" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000105.html" LinkGroup="Szunyi.IO">VanKrevelen Field {Szunyi.IO.File_Extension}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.WindowWrapper" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000034.html" LinkGroup="Szunyi.IO">WindowWrapper Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.WindowWrapper.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000035.html" LinkGroup="Szunyi.IO">WindowWrapper Constructor {Szunyi.IO.WindowWrapper}</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter.Write" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AC_overloads--.html" LinkGroup="Szunyi.IO">Write Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter.Write" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A6_overloads--.html" LinkGroup="Szunyi.IO">Write Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Fasta_Exporter.Write" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000AB_overloads--.html" LinkGroup="Szunyi.IO">Write Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Export.Text_Exporter.Write" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000A5_overloads--.html" LinkGroup="Szunyi.IO">Write Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.XML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000086.html" LinkGroup="Szunyi.IO">XML Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.XML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000148.html" LinkGroup="Szunyi.IO">XML Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Pick_Up.XMLs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000147.html" LinkGroup="Szunyi.IO">XMLs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.Xml" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E1.html" LinkGroup="Szunyi.IO">Xml Field {Szunyi.IO.File_Extensions}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.Xml" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000106.html" LinkGroup="Szunyi.IO">Xml Field {Szunyi.IO.File_Extension}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.XthPart" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001AA.html" LinkGroup="Szunyi.IO">XthPart Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.XthParts" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001A9.html" LinkGroup="Szunyi.IO">XthParts Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Extensions.aZ09_" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000001B9.html" LinkGroup="Szunyi.IO">aZ09_ Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b0" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000107.html" LinkGroup="Szunyi.IO">b0 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000108.html" LinkGroup="Szunyi.IO">b1 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b10" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000111.html" LinkGroup="Szunyi.IO">b10 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b11" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000112.html" LinkGroup="Szunyi.IO">b11 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b12" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000113.html" LinkGroup="Szunyi.IO">b12 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b13" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000114.html" LinkGroup="Szunyi.IO">b13 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b14" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000115.html" LinkGroup="Szunyi.IO">b14 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b15" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000116.html" LinkGroup="Szunyi.IO">b15 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b16" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000117.html" LinkGroup="Szunyi.IO">b16 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b17" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000118.html" LinkGroup="Szunyi.IO">b17 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b18" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000119.html" LinkGroup="Szunyi.IO">b18 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000109.html" LinkGroup="Szunyi.IO">b2 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b3" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010A.html" LinkGroup="Szunyi.IO">b3 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b4" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010B.html" LinkGroup="Szunyi.IO">b4 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b5" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010C.html" LinkGroup="Szunyi.IO">b5 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b6" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010D.html" LinkGroup="Szunyi.IO">b6 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b7" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010E.html" LinkGroup="Szunyi.IO">b7 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b8" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000010F.html" LinkGroup="Szunyi.IO">b8 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.b9" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000110.html" LinkGroup="Szunyi.IO">b9 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Import.Text.cIgnore_Before_Contains_Group_By_Not_Start" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000134.html" LinkGroup="Szunyi.IO">cIgnore_Before_Contains_Group_By_Not_Start Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.cb" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000016.html" LinkGroup="Szunyi.IO">cb Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.cb.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000001A.html" LinkGroup="Szunyi.IO">cb Constructor {Szunyi.IO.Controls.cb}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.csv" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D6.html" LinkGroup="Szunyi.IO">csv Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extension.fasta" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000103.html" LinkGroup="Szunyi.IO">fasta Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.gff3" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000E6.html" LinkGroup="Szunyi.IO">gff3 Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.gpg" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DC.html" LinkGroup="Szunyi.IO">gpg Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Double.i_P" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000045.html" LinkGroup="Szunyi.IO">i_P Property {Szunyi.IO.Controls.Get_Double}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Get_Integer.i_P" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000004A.html" LinkGroup="Szunyi.IO">i_P Property {Szunyi.IO.Controls.Get_Integer}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.mzXML" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D5.html" LinkGroup="Szunyi.IO">mzXML Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Controls.Set_Console_Properties.obj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000053.html" LinkGroup="Szunyi.IO">obj Property {Szunyi.IO.Controls.Set_Console_Properties}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.ForCheckBox.obj" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000012.html" LinkGroup="Szunyi.IO">obj Property {Szunyi.IO.ForCheckBox}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.PartialID.partialID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000015A.html" LinkGroup="Szunyi.IO">partialID Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.partialIDs.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000156_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.partialIDs.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000157_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.partialIDs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000154.html" LinkGroup="Szunyi.IO">partialIDs Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.Common.Common_Classes.partialIDs.partialIDs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000155.html" LinkGroup="Szunyi.IO">partialIDs Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.rep" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DB.html" LinkGroup="Szunyi.IO">rep Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000079_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb.New" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_000000000000007A_overloads--.html" LinkGroup="Szunyi.IO">New Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.tblb" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_0000000000000072.html" LinkGroup="Szunyi.IO">tblb Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.File_Extensions.vcf" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000DD.html" LinkGroup="Szunyi.IO">vcf Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Szunyi.IO.Extensions.woExtension" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Szunyi.IO.chm::/topic_00000000000000D1.html" LinkGroup="Szunyi.IO">woExtension Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
